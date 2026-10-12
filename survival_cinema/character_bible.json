@@ -1,0 +1,124 @@
+{
+  "schema": "survival_cinema.character_bible.v1",
+  "story_title": "The Keeper of Cape Vespers",
+  "characters": {
+    "iris_vaughn": {
+      "id": "CHAR_001",
+      "name": "Iris Vaughn",
+      "role": "Protagonist / Narrator",
+      "age": 22,
+      "ethnicity": "Mixed Filipina-American (mother Filipina, father white American)",
+      "physical_description": {
+        "height": "165 cm",
+        "build": "slim, small-boned, calloused hands, slight stoop from carrying camera gear",
+        "skin": "light brown, freckles across the nose",
+        "hair": "black, straight, shoulder-length, tied back with a leather cord",
+        "eyes": "dark brown, slightly hooded",
+        "face": "oval, strong jaw, small scar on right eyebrow from a childhood fall",
+        "distinguishing_features": "small lighthouse-silhouette tattoo inside left wrist (got it at 19, after her aunt's first winter on the island)"
+      },
+      "costumes": {
+        "arrival": "olive field jacket, grey wool sweater, dark jeans, brown leather boots, canvas camera bag",
+        "daily_work": "aunt's old navy wool lighthouse-keeper coat (too big in shoulders), grey sweater, jeans, rubber boots",
+        "lamp_room": "navy wool coat, red knit cap, fingerless gloves",
+        "climax": "navy wool coat over pyjamas, red knit cap, holding the brass crank handle"
+      },
+      "props_carried": ["medium-format film camera with leather strap (her aunt's Yashica)", "small digital point-and-shoot", "brass flashlight", "green notebook inside waterproof bag"],
+      "skills": ["lighthouse maintenance", "small-engine basics", "medium-format film photography and darkroom printing", "carpentry for screen doors/dock planks/chairs", "the code Marisol taught her at twelve", "hand-cranking the lens rotation and fog-signal cam"],
+      "weaknesses": ["panic attacks in enclosed spaces (claustrophobia from being locked in a closet at age 5)", "grief-fog (mother died at Iris's age 16, aunt at 21)", "does not trust her own memory of conversations with her aunt", "initially reluctant to write down things that frighten her", "physically not a fighter"],
+      "motivation": "Prove her aunt's death was not an accident; honor her aunt by acting, not by grieving.",
+      "stakes": "Her life; her identity; her memory of her aunt.",
+      "arc": "From grieving niece hiding in her aunt's coat → careful reader of her aunt's code → proactive investigator → decisive actor who hand-cranks the fog-signal whistle and confronts Renner on the dock.",
+      "voice": "Sparse, specific, present-tense, addressed (silently) to her dead aunt."
+    },
+    "marisol_vaughn": {
+      "id": "CHAR_002",
+      "name": "Marisol Vaughn",
+      "role": "Deceased aunt / second narrator (via journals read by Iris)",
+      "age_at_death": 51,
+      "ethnicity": "Filipina-American",
+      "physical_description": {
+        "build": "stockier than Iris, the build of a woman who has carried rope and water for twenty years",
+        "skin": "deeply tanned and weathered, lighter brown than Iris",
+        "hair": "black, streaked grey, usually in a braid",
+        "face": "square, with deep laugh lines",
+        "distinguishing_features": "tattoo of an anchor on her left forearm (Coast Guard veteran)"
+      },
+      "costumes_in_flashback": "navy lighthouse-keeper coat, dark trousers, fisherman's sweater, rubber boots",
+      "skills": ["lighthouse keeping (15 years)", "US Coast Guard veteran (engine room)", "saltwater photography with an old Yashica medium-format", "the private code she taught Iris at 12"],
+      "appearance_in_film": "Present only via: (a) voice in journals read by Iris, (b) one photograph on the cottage wall, (c) two flashback scenes (teaching Iris the code at 12; braiding onion tops in the kitchen), (d) her coat, her tools, her handwriting on the keeper's log."
+    },
+    "halen_yoo": {
+      "id": "CHAR_003",
+      "name": "Halen Yoo",
+      "role": "Ambivalent ally / supply-boat captain",
+      "age": 28,
+      "ethnicity": "Korean-American",
+      "physical_description": {
+        "build": "compact, wiry, strong shoulders from line work",
+        "skin": "pale, salt-bleached freckles",
+        "hair": "very short, bleached almost white by sun",
+        "eyes": "dark brown",
+        "face": "sharp, with a way of speaking that never invites an answer"
+      },
+      "costumes": "foul-weather gear (yellow oilskin jacket and trousers over a grey sweater), knit watchman's cap, rubber deck boots",
+      "props": "the Petrel (a 32-foot wooden-hulled supply boat with a diesel engine)",
+      "skills": ["boat handling in heavy weather", "small engine repair", "navigation by compass and chart", "knows all four lights she services"],
+      "secret": "Knew Marisol suspected Renner. Has known since the third keeper died in 2007. Has been silent out of fear.",
+      "arc": "From wary ally (act 1) → warns Iris off (act 2) → confesses and commits (act 3) → returns in the storm (climax) → holds Iris at the dock (resolution).",
+      "agency": "HIGH. She chooses to come back in the storm."
+    },
+    "wren_delacroix": {
+      "id": "CHAR_004",
+      "name": "Wren Delacroix",
+      "role": "Antagonist (revealed). Lighthouse service regional inspector.",
+      "age": 40,
+      "ethnicity": "White",
+      "physical_description": {
+        "build": "medium height, professional posture",
+        "skin": "fair",
+        "hair": "blonde-grey, cropped at the jaw",
+        "eyes": "blue-grey",
+        "face": "tidy, with a smile that does not always reach the eyes"
+      },
+      "costumes": "Service uniform: navy windbreaker with a lighthouse-service patch, dark trousers, deck boots, a clipboard, a service cap",
+      "skills": ["lighthouse inspection", "navigation", "bureaucracy", "two decades of government work"],
+      "logic": "Was paid badly for thirty years; the service stopped funding the lights; the smuggling money kept her lights running.",
+      "midpoint_role": "She quotes a line from the hidden notebook to Iris — proving she has read the notebook and is therefore complicit.",
+      "climax_role": "She does not appear at the climax; she is arrested off-screen."
+    },
+    "otis_renner": {
+      "id": "CHAR_005",
+      "name": "Otis Renner",
+      "role": "The Visitor / killer",
+      "age": 53,
+      "ethnicity": "White",
+      "physical_description": {
+        "build": "tall, broad in the shoulder, with a fisherman's rolling walk",
+        "skin": "weathered, sun-cancer red",
+        "hair": "grey, thinning",
+        "face": "weather-creased, with a small beard"
+      },
+      "costumes": "yellow fisherman's rain slicker over a heavy sweater, dark rubber boots, a knit cap",
+      "props": "a length of pipe (the murder weapon); a flashlight; a gasoline-engine skiff",
+      "logic": "The route fed his family for forty years. The service took the lighthouse and broke the deal. He is restoring the deal.",
+      "appearance": "Mostly unseen until the climax. We see him as: (a) a figure at the dock in Marisol's photograph (midpoint), (b) a silhouette at the dock through rain (climax), (c) sitting on the dock cleat at dawn (post-climax).",
+      "agency_at_climax": "Surrenders without resistance when the Coast Guard arrives; admits his crimes calmly."
+    },
+    "ed_bose": {
+      "id": "CHAR_006",
+      "name": "Ed Bose",
+      "role": "Shortwave mentor / retired keeper on the mainland",
+      "age": 70,
+      "ethnicity": "White",
+      "physical_description": {"build": "stocky, Coast Guard veteran's posture", "skin": "weathered", "hair": "white, cap-style"},
+      "appearance": "Voice only (shortwave). Never seen on screen. The coda's recipient of Iris's postcard."
+    }
+  },
+  "female_agency_summary": {
+    "iris": "Protagonist. Decisive at midpoint, climax, and resolution.",
+    "marisol": "Dead but drives the entire plot through her journals and her bookmarked keeper's manual page.",
+    "halen": "Saves Iris by returning in the storm.",
+    "wren": "Antagonist. Has her own logic and her own arc (arrest off-screen)."
+  }
+}

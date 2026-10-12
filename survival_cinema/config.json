@@ -1,0 +1,24 @@
+{
+  "schema": "survival_cinema.config.v1",
+  "project_name": "The Keeper of Cape Vespers",
+  "project_type": "YA survival thriller short film",
+  "target_runtime_minutes": 15,
+  "actual_runtime_minutes": 12.21,
+  "target_spoken_words": 2600,
+  "actual_spoken_words": 1950,
+  "scene_count": 22,
+  "shot_count": 74,
+  "image_resolution": "1344x768",
+  "render_resolution": "1920x1080",
+  "fps": 30,
+  "video_codec": "h264 (libx264 ultrafast crf 23)",
+  "audio_codec": "aac 192k",
+  "narration_voice": "tongtong",
+  "aspect_ratio": "16:9",
+  "style": "Pacific Northwest painterly cinematic, cold blue-grey palette with warm amber lamp accents",
+  "reference_works": [
+    {"title": "The Narrative of Arthur Gordon Pym of Nantucket", "author": "Edgar Allan Poe", "year": 1838, "gutenberg_id": 2149, "category": "wilderness_survival"},
+    {"title": "The Scarlet Plague", "author": "Jack London", "year": 1915, "gutenberg_id": 21970, "category": "apocalyptic_survival"},
+    {"title": "The Island of Doctor Moreau", "author": "H. G. Wells", "year": 1896, "gutenberg_id": 159, "category": "psychological_survival_thriller"}
+  ]
+}

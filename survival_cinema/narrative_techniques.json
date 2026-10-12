@@ -1,0 +1,32 @@
+{
+  "schema": "survival_cinema.narrative_techniques.v1",
+  "source_references": ["story_01_pym", "story_02_scarlet_plague", "story_03_moreau"],
+  "extracted_techniques": {
+    "narrative_architecture": {
+      "escalation_ladder": {"principle": "Each new act must replace the previous threat with a strictly worse one, not add another of the same kind.", "use_in_our_film": "Replace threats with structurally worse ones at each act break."},
+      "frame_narrative": {"principle": "Story told after events by survivor gains elegiac weight; exposition as confession.", "use_in_our_film": "Tight frame: protagonist's voice-over, present tense, addressed to unknown listener."},
+      "midpoint_reveal_as_moral_fact": {"principle": "Midpoint reveal should not be a monster but a fact that retroactively re-reads every earlier scene as sinister.", "use_in_our_film": "Plan a midpoint fact (not a monster) that re-reads the first half."},
+      "open_ending_as_technique": {"principle": "Truncation can be deliberate (Pym); soft resolution (Prendick's retreat) also works.", "use_in_our_film": "Earned closure for protagonist's arc; leave larger world ambiguous but not unresolved."}
+    },
+    "suspense": {
+      "withholding_information": "Give reader only what protagonist knows; make host environment know more than guest.",
+      "foreshadowing_small_wrongness": "Three small wrong details early pay off as one big reveal at midpoint.",
+      "false_assumptions": "Let protagonist be wrong twice before being right.",
+      "mystery_escalation": "Each chapter answers one question and raises a bigger one.",
+      "betrayal_through_kindness": "Most painful betrayals by people who were kind first.",
+      "cliffhanger_discipline": "End scenes on discovery or scream, not sigh.",
+      "payoff_discipline": "Every setup must pay off."
+    },
+    "character_design": {
+      "credible_ya_protagonist": "Educated/observant + specific practical skill + credible weakness (impulsivity, fainting, hesitation, attachment to lost friend).",
+      "agency_curve": "Protagonist starts reactive, becomes proactive in middle, ends decisive.",
+      "supporting_cast_diversity": "Each supporting character has independent motive; women have their own goals."
+    },
+    "scene_craft": {
+      "scene_objectives": "Each scene answers one question or achieves one physical goal.",
+      "visual_storytelling": "Deprive senses (darkness, silence, color) to make images cinematic and cheap to render.",
+      "dialogue_economy": "Use companion's questions as exposition prompts.",
+      "pacing": "Tight in thriller core; slow in reflective interludes."
+    }
+  }
+}

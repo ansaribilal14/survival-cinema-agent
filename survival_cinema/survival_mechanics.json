@@ -1,0 +1,31 @@
+{
+  "schema": "survival_cinema.survival_mechanics.v1",
+  "extracted_mechanics": {
+    "food_and_water": {
+      "lessons": ["Inventory scarcity (count water, count biscuit) is its own scene.", "Starvation degrades cognition before killing body.", "Cannibalism arises only after days of nothing; has moral cost."],
+      "use_in_our_film": "Show protagonist counting and rationing at least once."
+    },
+    "shelter_and_weather": {
+      "lessons": ["Sealed holds and huts are cinematic and cheap to render.", "Climate can be ally (mild California removes winter as threat)."],
+      "use_in_our_film": "Pick climate that lets us focus on social rather than weather threats."
+    },
+    "injuries_illness_exhaustion": {
+      "lessons": ["Lacerations and dehydration produce delirium (Pym).", "Surgical scars and bandages make visual continuity ledger (Moreau)."],
+      "use_in_our_film": "Use one specific injury (lacerated foot, twisted ankle) and track healing across scenes."
+    },
+    "navigation_and_escape": {
+      "lessons": ["Islands with one boat concentrate dramatic stakes.", "Single exit makes escape choices consequential."],
+      "use_in_our_film": "Single exit (one boat, one trail, one road)."
+    },
+    "resource_scarcity": {
+      "lessons": ["Biggest scarcity can be knowledge (Scarlet Plague) or information (Moreau), not food."],
+      "use_in_our_film": "Make knowledge/information the deepest scarcity under surface scarcity."
+    },
+    "threat_assessment": {
+      "lessons": ["Protagonist should misread threat at least twice before understanding.", "Most dangerous threat is one dressed in friendship."]
+    },
+    "consequences_of_bad_decisions": {
+      "lessons": ["Small kindness can be deadly error (keeping contagious corpse for night).", "Confronting host prematurely delays escape."]
+    }
+  }
+}

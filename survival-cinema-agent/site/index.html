@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survival Cinema Agent — Autonomous AI Film Production</title>
+<meta name="description" content="An autonomous AI agent that turns a one-paragraph story idea into a finished cinematic short film. 11 phases. 60+ AI-generated scene images. AI-synthesized narration. 1080p video with burned-in subtitles. Open-source framework.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { font-family: 'Inter', system-ui, sans-serif; line-height: 1.6; color: #e8eaed; background: #0a0c10; overflow-x: hidden; }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  ::selection { background: #f2b265; color: #0a0c10; }
+  :root {
+    --bg: #0a0c10; --bg-2: #11141b; --bg-3: #1a1f29;
+    --bg-card: rgba(26, 31, 41, 0.5);
+    --border: rgba(255, 255, 255, 0.06);
+    --border-strong: rgba(255, 255, 255, 0.12);
+    --text: #e8eaed; --text-muted: #8a93a3; --text-dim: #5a6172;
+    --accent: #f2b265; --accent-bright: #ffc88a; --accent-deep: #c97a2a;
+    --cold: #6f8aa8; --cold-bright: #9bb4d2; --red: #b5483a;
+    --max-w: 1280px; --gutter: 24px;
+  }
+  .container { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--gutter); }
+  section { padding: 120px 0; position: relative; }
+  @media (max-width: 768px) { section { padding: 72px 0; } }
+  h1, h2, h3, h4 { font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+  h1 { font-size: clamp(2.5rem, 7vw, 5.5rem); font-weight: 900; letter-spacing: -0.04em; }
+  h2 { font-size: clamp(1.8rem, 4vw, 3.2rem); font-weight: 800; margin-bottom: 24px; }
+  h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); margin-bottom: 12px; }
+  p { color: var(--text-muted); font-size: 1.0625rem; line-height: 1.7; }
+  .lead { font-size: 1.25rem; line-height: 1.55; color: var(--text); }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; display: inline-block; }
+  .gradient-text { background: linear-gradient(135deg, #f2b265 0%, #ffc88a 50%, #f2b265 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 18px 0; backdrop-filter: blur(20px); background: rgba(10, 12, 16, 0.7); border-bottom: 1px solid var(--border); }
+  nav.scrolled { padding: 12px 0; }
+  .nav-inner { display: flex; justify-content: space-between; align-items: center; }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1rem; }
+  .logo-mark { width: 28px; height: 28px; border-radius: 6px; background: linear-gradient(135deg, #f2b265, #c97a2a); display: flex; align-items: center; justify-content: center; color: #0a0c10; font-weight: 900; font-size: 14px; }
+  .nav-links { display: flex; gap: 28px; font-size: 0.875rem; }
+  .nav-links a { color: var(--text-muted); transition: color 0.2s; font-weight: 500; }
+  .nav-links a:hover { color: var(--text); }
+  .nav-cta { padding: 8px 16px; background: var(--accent); color: #0a0c10; border-radius: 999px; font-weight: 700; font-size: 0.875rem; }
+  @media (max-width: 768px) { .nav-links { display: none; } }
+  .hero { padding: 200px 0 140px; position: relative; overflow: hidden; }
+  .hero-bg { position: absolute; inset: 0; z-index: 0; }
+  .hero-bg::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 60% at 70% 30%, rgba(242, 178, 101, 0.12), transparent 70%), radial-gradient(ellipse 60% 50% at 20% 70%, rgba(111, 138, 168, 0.10), transparent 70%); }
+  .hero-bg::after { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px); background-size: 60px 60px; mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black, transparent); -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black, transparent); }
+  .hero .container { position: relative; z-index: 1; }
+  .hero h1 { max-width: 18ch; margin-bottom: 32px; }
+  .hero .lead { max-width: 56ch; margin-bottom: 40px; color: var(--text); }
+  .hero-cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 80px; }
+  .btn { padding: 14px 28px; border-radius: 999px; font-weight: 700; font-size: 0.95rem; display: inline-flex; align-items: center; gap: 10px; transition: all 0.2s; cursor: pointer; border: none; font-family: inherit; }
+  .btn-primary { background: var(--accent); color: #0a0c10; }
+  .btn-primary:hover { background: var(--accent-bright); transform: translateY(-2px); box-shadow: 0 12px 30px rgba(242, 178, 101, 0.25); }
+  .btn-secondary { background: rgba(255, 255, 255, 0.06); color: var(--text); border: 1px solid var(--border-strong); }
+  .hero-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 32px; max-width: 760px; padding-top: 32px; border-top: 1px solid var(--border); }
+  .stat-num { font-size: 2rem; font-weight: 800; color: var(--accent); letter-spacing: -0.02em; line-height: 1; }
+  .stat-label { font-size: 0.8125rem; color: var(--text-dim); margin-top: 6px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em; text-transform: uppercase; }
+  .section-header { text-align: center; max-width: 720px; margin: 0 auto 64px; }
+  .phases-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+  .phase-card { grid-column: span 4; padding: 28px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; transition: all 0.3s; }
+  .phase-card:hover { border-color: var(--border-strong); transform: translateY(-4px); background: var(--bg-3); }
+  .phase-num { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent); letter-spacing: 0.15em; margin-bottom: 14px; display: block; }
+  .phase-card h3 { color: var(--text); }
+  .phase-card p { font-size: 0.9375rem; margin-top: 6px; }
+  .phase-card .outputs { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 6px; }
+  .phase-card .outputs span { font-family: 'JetBrains Mono', monospace; font-size: 0.6875rem; color: var(--text-dim); padding: 3px 8px; background: rgba(255,255,255,0.04); border-radius: 4px; }
+  @media (max-width: 980px) { .phase-card { grid-column: span 6; } }
+  @media (max-width: 600px) { .phase-card { grid-column: span 12; } }
+  .phase-card.wide { grid-column: span 6; }
+  @media (max-width: 980px) { .phase-card.wide { grid-column: span 12; } }
+  .pipeline-viz { background: var(--bg-2); border: 1px solid var(--border); border-radius: 20px; padding: 48px; }
+  .pipeline-step { display: grid; grid-template-columns: 56px 1fr auto; gap: 20px; align-items: center; padding: 14px 0; border-bottom: 1px dashed var(--border); }
+  .pipeline-step:last-child { border-bottom: none; }
+  .pipeline-step-num { width: 36px; height: 36px; border-radius: 10px; background: var(--bg-3); border: 1px solid var(--border-strong); display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent); }
+  .pipeline-step.active .pipeline-step-num { background: var(--accent); color: #0a0c10; }
+  .pipeline-step-content h4 { color: var(--text); margin-bottom: 2px; }
+  .pipeline-step-content .desc { font-size: 0.875rem; color: var(--text-muted); }
+  .pipeline-step-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-dim); }
+  @media (max-width: 768px) { .pipeline-step { grid-template-columns: 40px 1fr; } .pipeline-step-meta { display: none; } }
+  .demo-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; }
+  @media (max-width: 900px) { .demo-grid { grid-template-columns: 1fr; } }
+  .demo-poster { position: relative; border-radius: 16px; overflow: hidden; aspect-ratio: 16/9; background: linear-gradient(135deg, #2a3a52, #11141b); border: 1px solid var(--border-strong); display: flex; align-items: flex-end; padding: 24px; }
+  .demo-poster::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 50%, rgba(10,12,16,0.9) 100%); pointer-events: none; }
+  .demo-poster .runtime { position: absolute; top: 16px; right: 16px; background: rgba(10,12,16,0.85); padding: 4px 10px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent); z-index: 2; }
+  .demo-poster .poster-overlay-text { position: relative; z-index: 2; }
+  .demo-poster .label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 8px; }
+  .demo-poster .title { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: white; line-height: 1.2; max-width: 22ch; }
+  .demo-info h3 { font-size: 1.875rem; color: var(--text); margin-bottom: 16px; }
+  .demo-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .demo-tags span { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; padding: 4px 10px; background: rgba(242, 178, 101, 0.1); color: var(--accent); border: 1px solid rgba(242, 178, 101, 0.2); border-radius: 999px; }
+  .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  @media (max-width: 900px) { .features-grid { grid-template-columns: 1fr; } }
+  .feature-card { padding: 32px 28px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; transition: all 0.3s; }
+  .feature-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+  .feature-icon { width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(135deg, rgba(242, 178, 101, 0.2), rgba(201, 122, 42, 0.1)); display: flex; align-items: center; justify-content: center; color: var(--accent); margin-bottom: 20px; }
+  .feature-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.7; }
+  .code-block { background: var(--bg-2); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+  .code-header { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--border); background: var(--bg-3); }
+  .code-dots { display: flex; gap: 6px; }
+  .code-dots span { width: 10px; height: 10px; border-radius: 50%; }
+  .code-dots span:nth-child(1) { background: #ff5f57; }
+  .code-dots span:nth-child(2) { background: #febc2e; }
+  .code-dots span:nth-child(3) { background: #28c840; }
+  .code-filename { font-family: 'JetBrains Mono', monospace; font-size: 0.8125rem; color: var(--text-muted); }
+  .code-block pre { padding: 22px 24px; overflow-x: auto; font-family: 'JetBrains Mono', monospace; font-size: 0.875rem; line-height: 1.65; color: #d8dce3; }
+  .code-block pre .comment { color: #6b7280; font-style: italic; }
+  .code-block pre .keyword { color: #f2b265; }
+  .code-block pre .string { color: #9bb4d2; }
+  .quickstart-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; align-items: start; }
+  @media (max-width: 900px) { .quickstart-grid { grid-template-columns: 1fr; } }
+  .step-list { display: flex; flex-direction: column; gap: 24px; }
+  .step-item { display: grid; grid-template-columns: 48px 1fr; gap: 16px; align-items: start; }
+  .step-num { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #0a0c10; font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 0.875rem; }
+  .step-content h4 { color: var(--text); margin-bottom: 4px; font-size: 1.0625rem; }
+  .step-content p { font-size: 0.9375rem; }
+  footer { padding: 80px 0 40px; border-top: 1px solid var(--border); background: var(--bg-2); }
+  .footer-inner { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; margin-bottom: 60px; }
+  @media (max-width: 768px) { .footer-inner { grid-template-columns: 1fr; gap: 32px; } }
+  .footer-col h5 { font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 16px; font-family: 'JetBrains Mono', monospace; }
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .footer-col a { color: var(--text-muted); font-size: 0.9375rem; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--accent); }
+  .footer-bottom { padding-top: 24px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; font-size: 0.8125rem; color: var(--text-dim); font-family: 'JetBrains Mono', monospace; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="container nav-inner">
+    <a href="#" class="logo"><span class="logo-mark">S</span><span>Survival Cinema Agent</span></a>
+    <div class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="#phases">Phases</a>
+      <a href="#demo">Demo film</a>
+      <a href="#quickstart">Quickstart</a>
+      <a href="#docs">Docs</a>
+    </div>
+    <a href="https://github.com/superz1402/survival-cinema-agent" target="_blank" class="nav-cta">Star on GitHub →</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <span class="eyebrow reveal">Autonomous AI Film Production · v1.0</span>
+    <h1 class="reveal">One paragraph in.<br><span class="gradient-text">A finished film out.</span></h1>
+    <p class="lead reveal">Survival Cinema Agent is an open-source agentic system that takes a single story idea and produces a complete cinematic short film — original IP, 60+ AI-generated scene images, AI-synthesized narration, burned-in subtitles, a thumbnail, and a YouTube-ready metadata package.</p>
+    <div class="hero-cta-row reveal">
+      <a href="#quickstart" class="btn btn-primary">Try it now →</a>
+      <a href="#demo" class="btn btn-secondary">Watch the demo film</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div><div class="stat-num">11</div><div class="stat-label">Autonomous phases</div></div>
+      <div><div class="stat-num">12<span style="font-size:1rem">min</span></div><div class="stat-label">Average runtime</div></div>
+      <div><div class="stat-num">74</div><div class="stat-label">Scene images per film</div></div>
+      <div><div class="stat-num">1080<span style="font-size:1rem">p</span></div><div class="stat-label">Render resolution</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>From idea to film, end to end.</h2>
+      <p class="lead">Drop in a one-paragraph story idea. The agent runs 11 phases — research, write, prompt, generate, narrate, render, package — and produces a finished, YouTube-ready short film. No stopping at planning. No hand-holding.</p>
+    </div>
+    <div class="pipeline-viz reveal">
+      <div class="pipeline-step active"><div class="pipeline-step-num">01</div><div class="pipeline-step-content"><h4>You write story_idea.md</h4><div class="desc">A one-paragraph premise with protagonist, setting, and midpoint reveal.</div></div><div class="pipeline-step-meta">~5 min</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">02</div><div class="pipeline-step-content"><h4>Agent acquires & analyzes 3 public-domain references</h4><div class="desc">Poe's Pym, London's Scarlet Plague, Wells's Moreau — for narrative techniques only.</div></div><div class="pipeline-step-meta">auto</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">03</div><div class="pipeline-step-content"><h4>Agent writes the original IP</h4><div class="desc">Story bible, complete story (~4k words), character bible, world bible, continuity rules, originality audit.</div></div><div class="pipeline-step-meta">LLM</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">04</div><div class="pipeline-step-content"><h4>Agent builds the screenplay</h4><div class="desc">22 scenes, 60-80 shots, full shot list with image prompts, narration, dialogue, music/SFX cues.</div></div><div class="pipeline-step-meta">LLM</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">05</div><div class="pipeline-step-content"><h4>Agent generates scene images</h4><div class="desc">One AI image per shot, with consistent character anchors and a unified visual style.</div></div><div class="pipeline-step-meta">~50 min</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">06</div><div class="pipeline-step-content"><h4>Agent synthesizes narration</h4><div class="desc">22 TTS chunks in a single consistent voice, concatenated into a 12-minute narration WAV.</div></div><div class="pipeline-step-meta">~3 min</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">07</div><div class="pipeline-step-content"><h4>Agent renders the final video</h4><div class="desc">FFmpeg pipeline: shots → scenes → film, upscaled to 1920×1080, subtitles burned in.</div></div><div class="pipeline-step-meta">~10 min</div></div>
+      <div class="pipeline-step active"><div class="pipeline-step-num">08</div><div class="pipeline-step-content"><h4>Agent packages for YouTube</h4><div class="desc">Cinematic thumbnail, title + description + chapter timestamps + search keywords + AI disclosure.</div></div><div class="pipeline-step-meta">auto</div></div>
+      <div class="pipeline-step"><div class="pipeline-step-num">→</div><div class="pipeline-step-content"><h4 style="color:var(--accent)">You receive output/final.mp4</h4><div class="desc">A finished 1080p cinematic short film with subtitles burned in, ready to upload.</div></div><div class="pipeline-step-meta">✓</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="phases">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">The 11 phases</span>
+      <h2>Each phase has a single script.<br>Each script is resumable.</h2>
+      <p class="lead">The system runs phases in dependency order. Re-running skips already-done work. Failures are explicit and recoverable.</p>
+    </div>
+    <div class="phases-grid">
+      <div class="phase-card reveal"><span class="phase-num">PHASE 01</span><h3>Discover references</h3><p>Search the public internet (or use the curated fallback) for three substantial survival-fiction works in three categories: wilderness, apocalyptic, psychological.</p><div class="outputs"><span>manifest.json</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 02</span><h3>Acquire & verify</h3><p>Download, strip boilerplate, compute word count, verify opening and ending. Replace any candidate that fails the completeness check.</p><div class="outputs"><span>*_clean.txt</span><span>acquisition_report.md</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 03</span><h3>Analyze narratives</h3><p>Extract narrative architecture, survival mechanics, character design, suspense, scene craft, adaptation potential — without copying any content.</p><div class="outputs"><span>reference_analysis_*.md</span><span>*_patterns.json</span></div></div>
+      <div class="phase-card wide reveal"><span class="phase-num">PHASE 04</span><h3>Write the original story</h3><p>Generate 3 concept candidates, evaluate across 8 dimensions, pick the strongest. Write the full story (~3-5k words) with a real ending. Run an originality audit against the references.</p><div class="outputs"><span>story_bible.md</span><span>complete_story.md</span><span>character_bible.json</span><span>world_bible.md</span><span>originality_audit.md</span></div></div>
+      <div class="phase-card wide reveal"><span class="phase-num">PHASE 05</span><h3>Build the screenplay</h3><p>22 scenes, 60-80 shots. Each scene includes: shot list with image prompts, narration, dialogue, music/ambience/SFX cues, continuity requirements, transitions.</p><div class="outputs"><span>screenplay.md</span><span>scene_manifest.json</span><span>narration_script.txt</span><span>subtitles.srt</span><span>timeline.json</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 06</span><h3>Visual development</h3><p>Write the style bible: palette, lighting, lens language, visual motifs, forbidden elements, continuity anchor rules, style-anchor text appended to every image prompt.</p><div class="outputs"><span>style_bible.md</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 07</span><h3>Generate scene images</h3><p>One AI image per shot. Retry up to 3× on failure. Skip already-generated for resumability. Vision-QA on a sample.</p><div class="outputs"><span>assets/images/</span><span>asset_manifest.json</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 08</span><h3>Synthesize narration</h3><p>22 TTS chunks in a single consistent voice. Concatenate into one narration WAV. Retry transient failures.</p><div class="outputs"><span>narration_chunks/</span><span>narration.wav</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 09</span><h3>Render the film</h3><p>FFmpeg 3-pass pipeline: shots → scenes → film, upscaled to 1920×1080, h264+AAC, subtitles burned in.</p><div class="outputs"><span>final.mp4</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 10</span><h3>Thumbnail + YouTube package</h3><p>One cinematic thumbnail. Title, 3 alternatives, description, chapter timestamps, search keywords, AI disclosure.</p><div class="outputs"><span>thumbnail.png</span><span>video_metadata.json</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">PHASE 11</span><h3>QA reports</h3><p>Narrative, continuity, visual, audio, render, rights & provenance. All failures explicit; no silent PASS.</p><div class="outputs"><span>reports/</span></div></div>
+      <div class="phase-card reveal"><span class="phase-num">+</span><h3>Git commit</h3><p>All source files committed locally. Large binaries gitignored. Ready to push & release.</p><div class="outputs"><span>git main</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="demo" style="background: var(--bg-2);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">The demo film</span>
+      <h2>"The Keeper of Cape Vespers"</h2>
+      <p class="lead">A 12.21-minute YA survival thriller, produced end-to-end by this system. Original IP, 74 AI-generated scene images, AI-synthesized narration, burned-in subtitles. Watch the full film and read every artifact that produced it.</p>
+    </div>
+    <div class="demo-grid">
+      <div class="demo-poster reveal">
+        <span class="runtime">12:21</span>
+        <div class="poster-overlay-text">
+          <div class="label">Demo film · 1080p</div>
+          <div class="title">The Keeper of Cape Vespers</div>
+        </div>
+      </div>
+      <div class="demo-info reveal">
+        <h3>An original female-centric YA survival thriller.</h3>
+        <p>Iris Vaughn, 22, takes a seasonal job at a remote lighthouse where her aunt died the previous winter. Hidden under a floorboard she finds her aunt's coded journal — and learns the woman who raised her was being silenced by someone who came to the island every Thursday.</p>
+        <p>As a storm closes the island, Iris must rig the long-decommissioned fog-signal whistle to broadcast the keeper's SOS pattern across the storm — the pattern her aunt taught her at twelve, on the same rainy afternoon she taught her the code.</p>
+        <div class="demo-tags">
+          <span>YA survival thriller</span><span>lighthouse setting</span><span>female protagonist</span><span>original IP</span><span>22 scenes</span><span>74 shots</span>
+        </div>
+        <a href="examples/keeper_of_cape_vespers/" target="_blank" class="btn btn-primary">View all artifacts →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Built for any agent, any provider</span>
+      <h2>Provider-agnostic by design.</h2>
+      <p class="lead">Swap the image generator, the TTS engine, or the LLM orchestrator with a single function edit. The pipeline structure stays the same.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg></div><h3>Original IP, every run</h3><p>Each film is a fresh original work. The system runs an originality audit against the reference texts and refuses to copy prose, dialogue, scenes, characters, or distinctive plot elements.</p></div>
+      <div class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Resumable by design</h3><p>Every expensive phase writes a checkpoint JSON. Re-running the pipeline skips already-done work. A phase is re-run only if its checkpoint is missing or its output files are absent.</p></div>
+      <div class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg></div><h3>Female-centric by default</h3><p>The protagonist is a young adult woman (20-25) with substantial agency, a specific practical skill, a credible weakness, and a believable arc. Female supporting characters have independent motives.</p></div>
+      <div class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9M5 12v9h14v-9"/></svg></div><h3>Public-domain references</h3><p>Uses Project Gutenberg works (Poe 1838, London 1915, Wells 1896) for narrative-technique research. No copyright risk. No paywall bypass. No DRM circumvention.</p></div>
+      <div class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3>11 structured phases</h3><p>Deterministic phases (download, image gen, TTS, render) are scripted. Creative phases (story, screenplay, style) are LLM-driven, guided by a master system prompt any capable agent can follow.</p></div>
+      <div class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div><h3>Multi-layer QA</h3><p>Narrative, continuity, visual, audio, render, rights & provenance. Failures are explicit and documented. A failed check is never silently marked PASS.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="quickstart" style="background: var(--bg-2);">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Quickstart</span>
+      <h2>Three steps to your first film.</h2>
+      <p class="lead">Clone the repo, write your story idea, hand it to an LLM agent. The system does the rest.</p>
+    </div>
+    <div class="quickstart-grid">
+      <div class="step-list reveal">
+        <div class="step-item"><div class="step-num">1</div><div class="step-content"><h4>Clone the framework</h4><p>Get the repo and cd in.</p></div></div>
+        <div class="step-item"><div class="step-num">2</div><div class="step-content"><h4>Write your story idea</h4><p>Copy the template, fill in ~10 fields. Protagonist, setting, premise, midpoint reveal.</p></div></div>
+        <div class="step-item"><div class="step-num">3</div><div class="step-content"><h4>Hand it to any capable agent</h4><p>Claude, GPT-4, Gemini, Super Z. The agent reads the system prompt and runs the pipeline.</p></div></div>
+      </div>
+      <div class="code-block reveal">
+        <div class="code-header"><div class="code-dots"><span></span><span></span><span></span></div><div class="code-filename">~ terminal + story_idea.md</div></div>
+        <pre><span class="comment"># 1. Clone the framework</span>
+<span class="keyword">git</span> clone https://github.com/superz1402/survival-cinema-agent.git
+<span class="keyword">cd</span> survival-cinema-agent
+
+<span class="comment"># 2. Write your story idea</span>
+<span class="keyword">cp</span> STORY_IDEA_TEMPLATE.md story_idea.md
+<span class="keyword">$EDITOR</span> story_idea.md
+
+<span class="comment"># 3. Hand it to an LLM agent with this prompt:</span>
+<span class="string">"Run the Survival Cinema Agent pipeline on</span>
+<span class="string"> story_idea.md. Use the system prompt at</span>
+<span class="string"> agent/SYSTEM_PROMPT.md. Execute every phase</span>
+<span class="string"> and produce all outputs. Do not stop at</span>
+<span class="string"> planning. Persist all artifacts to disk."</span>
+
+<span class="comment"># ...the agent runs for ~70 minutes...</span>
+
+<span class="comment"># 4. Your film is ready</span>
+<span class="keyword">open</span> output_run/output/final.mp4</pre>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top: 48px;" class="reveal">
+      <a href="docs/QUICKSTART.md" class="btn btn-primary">Read the full quickstart →</a>
+      <a href="agent/SYSTEM_PROMPT.md" class="btn btn-secondary" style="margin-left: 10px;">Read the system prompt</a>
+    </div>
+  </div>
+</section>
+
+<section id="docs">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Documentation</span>
+      <h2>Everything you need to understand, run, and extend.</h2>
+      <p class="lead">Full documentation lives in the docs/ directory. Each file is short, focused, and runnable.</p>
+    </div>
+    <div class="features-grid">
+      <a href="docs/ARCHITECTURE.md" class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg></div><h3>Architecture</h3><p>The 3-layer system: user input, agent orchestration, outputs. Deterministic vs. creative phases. Provider-agnostic by design.</p></a>
+      <a href="docs/INPUT_SPEC.md" class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z M14 2v6h6"/></svg></div><h3>Input spec</h3><p>The story_idea.md format. Required fields, defaults, what makes a good idea.</p></a>
+      <a href="docs/PHASES.md" class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><h3>The 11 phases</h3><p>Each phase has a single script in agent/tools/. Inputs, outputs, deterministic vs. creative.</p></a>
+      <a href="docs/OUTPUTS.md" class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div><h3>Outputs</h3><p>The full directory tree produced by a successful run. What's git-tracked vs. gitignored. How to distribute the film.</p></a>
+      <a href="docs/CUSTOMIZATION.md" class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4"/></svg></div><h3>Customization</h3><p>Swap image provider, TTS engine, reference texts, visual style, runtime, music, image-to-video, multi-voice dialogue.</p></a>
+      <a href="agent/SYSTEM_PROMPT.md" class="feature-card reveal"><div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div><h3>System prompt</h3><p>The master directive. Hand this file (plus your story_idea.md) to any capable AI agent.</p></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-mark">S</span><span>Survival Cinema Agent</span></div>
+        <p>An open-source agentic system for autonomous cinematic short-film production. Built by Super Z.</p>
+      </div>
+      <div class="footer-col"><h5>Framework</h5><ul>
+        <li><a href="docs/QUICKSTART.md">Quickstart</a></li>
+        <li><a href="agent/SYSTEM_PROMPT.md">System prompt</a></li>
+        <li><a href="docs/ARCHITECTURE.md">Architecture</a></li>
+        <li><a href="docs/PHASES.md">The 11 phases</a></li>
+        <li><a href="docs/INPUT_SPEC.md">Input spec</a></li>
+        <li><a href="docs/OUTPUTS.md">Outputs</a></li>
+        <li><a href="docs/CUSTOMIZATION.md">Customization</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Resources</h5><ul>
+        <li><a href="https://github.com/superz1402/survival-cinema-agent">GitHub repo</a></li>
+        <li><a href="examples/keeper_of_cape_vespers/">Demo: Keeper of Cape Vespers</a></li>
+        <li><a href="LICENSE">MIT License</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><div>© 2026 Survival Cinema Agent · MIT Licensed · Built autonomously by Super Z</div><div>v1.0.0 · main</div></div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 20); });
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) { setTimeout(() => entry.target.classList.add('visible'), i * 30); observer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -80px 0px' });
+  reveals.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

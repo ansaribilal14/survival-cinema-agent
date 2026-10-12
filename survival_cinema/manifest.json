@@ -1,0 +1,63 @@
+{
+  "schema": "survival_cinema.manifest.v1",
+  "project": "The Keeper of Cape Vespers",
+  "version": "1.0.0",
+  "story": {
+    "title": "The Keeper of Cape Vespers",
+    "genre": "YA survival thriller",
+    "protagonist": "Iris Vaughn, 22, mixed Filipina-American",
+    "setting": "Cape Vespers Island, Salish Sea, Pacific Northwest",
+    "runtime_minutes": 12.21,
+    "narration_word_count": 1950,
+    "scene_count": 22,
+    "shot_count": 74
+  },
+  "references": {
+    "count": 3,
+    "works": [
+      "Poe, The Narrative of Arthur Gordon Pym of Nantucket (1838)",
+      "London, The Scarlet Plague (1915)",
+      "Wells, The Island of Doctor Moreau (1896)"
+    ],
+    "license": "Public domain (US) — Project Gutenberg",
+    "use": "narrative-technique research only; no content reproduced"
+  },
+  "deliverables": {
+    "final_video": "output/final.mp4",
+    "thumbnail": "output/thumbnail.png",
+    "subtitles": "output/final_subtitles.srt",
+    "youtube_metadata": "output/video_metadata.json",
+    "story": "story_development/complete_story.md",
+    "story_bible": "story_development/story_bible.md",
+    "screenplay": "screenplay/screenplay.md",
+    "character_bible": "story_development/character_bible.json",
+    "world_bible": "story_development/world_bible.md",
+    "continuity_rules": "story_development/continuity_rules.md",
+    "originality_audit": "story_development/originality_audit.md",
+    "style_bible": "visual_development/style_bible.md",
+    "images_dir": "assets/images/",
+    "image_count": 74,
+    "narration_audio": "assets/narration/narration.wav",
+    "narration_chunk_count": 22,
+    "asset_manifest": "assets/asset_manifest.json",
+    "audio_manifest": "assets/audio_manifest.json",
+    "reports": [
+      "reports/acquisition_report.md",
+      "reports/narrative_analysis.md",
+      "reports/continuity_report.md",
+      "reports/quality_report.md",
+      "reports/rights_and_provenance.md",
+      "reports/production_failures.md"
+    ]
+  },
+  "qa_verdict": {
+    "narrative": "PASS",
+    "continuity": "PASS",
+    "visual": "PASS",
+    "audio": "PASS",
+    "render": "PASS",
+    "rights_and_provenance": "PASS",
+    "overall": "PASS"
+  },
+  "backup_note": "This manifest is part of an emergency backup. The local workspace was wiped post-production. GitHub account suspended. Text source files recovered from conversation memory and re-uploaded to storage.to."
+}

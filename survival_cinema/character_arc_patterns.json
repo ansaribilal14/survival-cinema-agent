@@ -1,0 +1,25 @@
+{
+  "schema": "survival_cinema.character_arc_patterns.v1",
+  "patterns": {
+    "credible_ya_protagonist_curve": {
+      "opening_state": "Educated or practically skilled, but inexperienced in extremis. Strong attachment to one person.",
+      "first_act_transformation": "Loss of safety; loss of access to attached person; realization prior identity is useless.",
+      "midpoint_decision": "Transition from reactive survival to proactive inquiry. Specific choice that cannot be undone.",
+      "climax_action": "Decisive act of agency, costly, irreversible.",
+      "resolution_state": "Permanently changed identity. Quieter life. Loss of belief in human specialness, or rededication to specific person's memory.",
+      "credible_weaknesses": ["impulsivity", "hesitation under fire", "fainting/overwhelm", "moral squeamishness", "loyalty to wrong person"],
+      "credible_strengths": ["observation", "memory", "practical skill", "patience", "willingness to learn from mistakes", "manual skill"]
+    },
+    "supporting_cast_pattern": {
+      "lost_friend_or_mentor": "Dies or removed in act 1; voice returns in act 3.",
+      "ambivalent_ally": "Saves protagonist once, has own agenda, may turn.",
+      "host_with_secret": "Kind in act 1, revealed at midpoint to have done something terrible.",
+      "female_supporting_character": "Independent motive (escape, knowledge, protection). Not a prize, not a mirror.",
+      "antagonist_or_opposing_force": "Can be environmental or social. Best stories use both."
+    },
+    "villainy_pattern": {
+      "principle": "Most chilling villain is one whose logic protagonist can almost follow.",
+      "use_in_our_film": "Antagonist's logic should be coherent enough that audience momentarily agrees."
+    }
+  }
+}

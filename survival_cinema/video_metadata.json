@@ -1,0 +1,55 @@
+{
+  "schema": "survival_cinema.video_metadata.v1",
+  "primary_title": "The Keeper of Cape Vespers — A Survival Thriller Short Film",
+  "title_alternatives": [
+    "The Keeper of Cape Vespers (Original Survival Thriller Short Film)",
+    "She Took a Lighthouse Job to Honor Her Dead Aunt. What She Found Was a Murder.",
+    "Cape Vespers: An Original YA Survival Thriller"
+  ],
+  "short_description": "An original 12-minute YA survival thriller short film. A grieving 22-year-old woman takes a seasonal job at a remote lighthouse where her aunt died. Hidden under a floorboard she finds her aunt's coded journal — and learns the woman who raised her was being silenced by someone who came to the island every Thursday.",
+  "long_description": "THE KEEPER OF CAPE VESPERS — an original YA survival thriller short film (12 min).\n\nIris Vaughn, 22, takes a seasonal job as the relief keeper of an automated lighthouse on Cape Vespers, a small island in the Salish Sea, where her aunt Marisol died the previous winter. The official report said it was a fall. Iris came to grieve. Then she lifted a buckled kitchen floorboard and found her aunt's hidden journal — written in a code Marisol had taught Iris at twelve — and learned that someone had been coming to the island on Thursdays for forty years, that the lighthouse inspector was paid to look the other way, and that her aunt's death was not an accident.\n\nAs a storm closes the island, Iris must decide: escape with the evidence, or stay and rig the long-decommissioned fog-signal whistle to broadcast the keeper's SOS pattern across the storm — the pattern her aunt taught her, on the same rainy afternoon she taught her the code.\n\nThe film is built from three structural lessons drawn from classic public-domain survival fiction (Poe's 'Pym,' London's 'The Scarlet Plague,' Wells's 'Moreau'): the escalation ladder, the frame-narrative voice of a survivor who has lost someone, and the midpoint reveal as a moral fact rather than a monster. None of the reference works' content is reproduced; only general narrative techniques are learned from them.\n\nAll imagery is original AI-generated artwork, hand-prompted scene-by-scene in a consistent cinematic Pacific Northwest visual style. Narration is synthesized via AI text-to-speech. The story, screenplay, character identities, setting, and antagonist are entirely original.\n\nCHAPTERS:\n00:00 — Act I: Arrival\n02:08 — Act II: Settling and Wrongness\n06:30 — The Midpoint Reveal (Moral Fact)\n09:36 — Act III: Becoming Proactive\n12:18 — The Visitor\n12:55 — The Fog Signal (Climax)\n14:15 — After\n15:36 — Postcard (Coda)\n\nMUSIC: One original three-chord piano theme, used in Act 1 and the Coda. No commercial music.\n\nAI-GENERATED CONTENT DISCLOSURE: All scene imagery, the thumbnail, and the narration voice are AI-generated. The screenplay, story, characters, setting, plot, and visual style are entirely original human-authored work. No real actors appear. No copyrighted characters, franchises, or settings are referenced or reproduced.",
+  "chapter_timestamps": [
+    {"name": "Act I: Arrival", "time": "00:00"},
+    {"name": "Act II: Settling and Wrongness", "time": "02:08"},
+    {"name": "The Midpoint Reveal", "time": "06:30"},
+    {"name": "Act III: Becoming Proactive", "time": "09:36"},
+    {"name": "The Visitor", "time": "12:18"},
+    {"name": "The Fog Signal (Climax)", "time": "12:55"},
+    {"name": "After", "time": "14:15"},
+    {"name": "Postcard (Coda)", "time": "15:36"}
+  ],
+  "search_keywords": [
+    "survival thriller", "young adult survival", "lighthouse keeper", "female protagonist thriller",
+    "short film", "ya survival thriller", "pacific northwest", "salish sea",
+    "psychological thriller short", "mystery short film", "contained location thriller",
+    "AI short film", "cinematic narration", "grief narrative", "isolated island thriller",
+    "fog signal", "coast guard", "smuggling mystery", "journal mystery",
+    "the keeper of cape vespers", "original survival story"
+  ],
+  "category": "Film & Animation",
+  "visibility": "private",
+  "language": "en",
+  "ai_generated_content_disclosure": {
+    "imagery": "All scene imagery and the thumbnail are AI-generated.",
+    "audio": "The narration voice is AI-generated using TTS.",
+    "screenplay": "The screenplay, story, and characters are entirely original human-authored work.",
+    "real_people": "No real actors appear.",
+    "disclosure_required": true,
+    "disclosure_label": "Some scenes were generated with AI tools. The screenplay, story, and characters are entirely original human work."
+  },
+  "production_metadata": {
+    "total_runtime_seconds": 732.53,
+    "total_runtime_minutes": 12.21,
+    "scene_count": 22,
+    "shot_count": 74,
+    "image_resolution": "1920x1080",
+    "image_source_resolution": "1344x768",
+    "fps": 30,
+    "video_codec": "h264 (libx264, ultrafast, crf 23, yuv420p)",
+    "audio_codec": "aac, 192 kbps",
+    "narration_voice": "tongtong",
+    "narration_word_count": 1950,
+    "narration_chunk_count": 22,
+    "subtitle_format": "SRT (burned into video)"
+  }
+}
