@@ -31,4 +31,4 @@ AI-generated images at 1344x768 are already 16:9, but the pad is still applied. 
 
 ## Status
 
-- [ ] Not started
+- [x] ✅ COMPLETED — see v3.0.0 release (https://github.com/ansaribilal14/survival-cinema-agent/releases/tag/v3.0.0)

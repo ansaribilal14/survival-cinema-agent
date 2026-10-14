@@ -29,4 +29,4 @@ The v1 used a single soft ambient sine drone (110Hz + 165Hz sine waves with echo
 
 ## Status
 
-- [ ] Not started
+- [x] ✅ COMPLETED — see v3.0.0 release (https://github.com/ansaribilal14/survival-cinema-agent/releases/tag/v3.0.0)
