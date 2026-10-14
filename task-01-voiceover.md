@@ -20,4 +20,7 @@
 
 ## Status
 
-- [ ] Not started
+- [x] ✅ COMPLETED — Voiceover identified as `en-US-AndrewMultilingualNeural` at `-3%` rate (see `voiceover_choice.md`)
+- Bonus discovery: the same repo revealed the music + audio mastering spec for T04 (composed CC0 sampler score, -14 LUFS master, opuscar-style ducking)
+- Commit: pending (will land with T03 + T04 batch)
+- Issue #1: will be closed when the voiceover change is verified in a test render
