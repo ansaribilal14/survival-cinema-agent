@@ -158,7 +158,8 @@ def call_edge_tts(text, mp3_path, words_json_path):
         words_json_path.write_text("[]", encoding="utf-8")
         return True
 
-    # Use Python edge-tts API directly (not CLI) to capture WordBoundary events
+    # Use the venv's python (which has edge-tts installed)
+    python_bin = "/home/z/.venv/bin/python3"
     code = f"""
 import asyncio, json, edge_tts
 
@@ -176,11 +177,13 @@ async def main():
                 words.append({{"t": chunk["offset"] / 1e7, "d": chunk["duration"] / 1e7, "w": chunk["text"]}})
     with open({str(words_json_path)!r}, "w") as f:
         json.dump(words, f, indent=1)
-    print(f"OK: {{len(words)}} words")
+    print(f"OK: {{len(words)}} words", flush=True)
 
 asyncio.run(main())
 """
-    r = subprocess.run([sys.executable, "-c", code], capture_output=True, text=True, timeout=120)
+    r = subprocess.run([python_bin, "-c", code], capture_output=True, text=True, timeout=120)
+    if r.returncode != 0:
+        print(f"  edge-tts error: {r.stderr[-300:]}")
     return r.returncode == 0 and mp3_path.exists() and mp3_path.stat().st_size > 1000
 
 
@@ -230,7 +233,10 @@ def main():
     progress = load_progress()
 
     # Stage 1: Generate per-shot narration with edge-tts (Blackpink voice)
-    if "--stage" not in sys.argv or "narration" in sys.argv:
+    stage = "all"
+    if "--stage" in sys.argv:
+        stage = sys.argv[sys.argv.index("--stage") + 1]
+    if stage in ("all", "narration"):
         print("\n[2/6] Generating per-shot narration with Edge TTS (Blackpink voice)...")
         narration_done = set(progress.get("narration_done", []))
         max_new = int(sys.argv[sys.argv.index("--narration-max")+1]) if "--narration-max" in sys.argv else None

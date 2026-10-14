@@ -1,0 +1,341 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,52,&H00FFFFFF,&H00FFFFFF,&H80000000,&H80000000,1,0,0,0,100,100,0,0,1,3,1,2,80,80,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.11,0:00:01.34,Default,,0,0,0,,The boat came in at dawn
+Dialogue: 0,0:00:01.73,0:00:03.46,Default,,0,0,0,,the way Marisol always said it
+Dialogue: 0,0:00:03.46,0:00:05.57,Default,,0,0,0,,should Iris Vaughn was twenty-two
+Dialogue: 0,0:00:06.47,0:00:07.99,Default,,0,0,0,,She was the new relief keeper
+Dialogue: 0,0:00:08.20,0:00:10.28,Default,,0,0,0,,at Cape Vespers Her aunt had
+Dialogue: 0,0:00:10.29,0:00:12.20,Default,,0,0,0,,died on this island the previous
+Dialogue: 0,0:00:12.20,0:00:12.70,Default,,0,0,0,,winter
+Dialogue: 0,0:00:13.56,0:00:14.92,Default,,0,0,0,,Everyone said it was a fall
+Dialogue: 0,0:00:15.34,0:00:16.47,Default,,0,0,0,,Iris did not believe it
+Dialogue: 0,0:00:17.37,0:00:19.58,Default,,0,0,0,,Halen Yoo was the supply-boat captain
+Dialogue: 0,0:00:20.00,0:00:21.71,Default,,0,0,0,,She had known Marisol for ten
+Dialogue: 0,0:00:21.72,0:00:23.84,Default,,0,0,0,,years She had known Iris since
+Dialogue: 0,0:00:23.84,0:00:24.89,Default,,0,0,0,,Iris was twelve
+Dialogue: 0,0:00:25.78,0:00:26.76,Default,,0,0,0,,The first thing she said to
+Dialogue: 0,0:00:26.76,0:00:28.49,Default,,0,0,0,,Iris at the dock was you
+Dialogue: 0,0:00:28.49,0:00:30.09,Default,,0,0,0,,don't have to do this The
+Dialogue: 0,0:00:30.10,0:00:32.01,Default,,0,0,0,,second thing she said was I
+Dialogue: 0,0:00:32.01,0:00:33.82,Default,,0,0,0,,will come every Thursday
+Dialogue: 0,0:00:34.71,0:00:36.32,Default,,0,0,0,,Iris heard the third thing Halen
+Dialogue: 0,0:00:36.43,0:00:38.48,Default,,0,0,0,,did not say I am afraid
+Dialogue: 0,0:00:38.48,0:00:38.90,Default,,0,0,0,,for you
+Dialogue: 0,0:00:39.81,0:00:41.33,Default,,0,0,0,,The tower stair was a hundred
+Dialogue: 0,0:00:41.33,0:00:43.66,Default,,0,0,0,,and twelve steps Iris had counted
+Dialogue: 0,0:00:43.67,0:00:44.88,Default,,0,0,0,,them at fourteen
+Dialogue: 0,0:00:45.76,0:00:47.64,Default,,0,0,0,,She counted them again at twenty-two
+Dialogue: 0,0:00:48.03,0:00:49.33,Default,,0,0,0,,the way a person touches a
+Dialogue: 0,0:00:49.33,0:00:51.70,Default,,0,0,0,,bruise to see if it still
+Dialogue: 0,0:00:51.70,0:00:52.27,Default,,0,0,0,,hurts
+Dialogue: 0,0:00:53.15,0:00:54.62,Default,,0,0,0,,At the top her aunt's woolen
+Dialogue: 0,0:00:54.62,0:00:55.89,Default,,0,0,0,,coat was still on the hook
+Dialogue: 0,0:00:55.89,0:00:56.55,Default,,0,0,0,,by the door
+Dialogue: 0,0:00:57.43,0:00:59.17,Default,,0,0,0,,Iris put it on It fit
+Dialogue: 0,0:01:00.07,0:01:01.64,Default,,0,0,0,,The cottage had been half-cleared by
+Dialogue: 0,0:01:01.64,0:01:04.15,Default,,0,0,0,,the service Marisol's books were stacked
+Dialogue: 0,0:01:04.16,0:01:05.48,Default,,0,0,0,,against the wall by someone who
+Dialogue: 0,0:01:05.48,0:01:07.41,Default,,0,0,0,,did not know which books mattered
+Dialogue: 0,0:01:08.29,0:01:09.66,Default,,0,0,0,,Iris set her bag on the
+Dialogue: 0,0:01:09.67,0:01:11.33,Default,,0,0,0,,table and put her hand on
+Dialogue: 0,0:01:11.33,0:01:12.72,Default,,0,0,0,,the back of her aunt's chair
+Dialogue: 0,0:01:13.61,0:01:15.27,Default,,0,0,0,,She would re-cane it before she
+Dialogue: 0,0:01:15.29,0:01:15.76,Default,,0,0,0,,left
+Dialogue: 0,0:01:16.65,0:01:18.21,Default,,0,0,0,,Iris woke at three in the
+Dialogue: 0,0:01:18.21,0:01:20.21,Default,,0,0,0,,morning with the fog pressing at
+Dialogue: 0,0:01:20.21,0:01:22.33,Default,,0,0,0,,the window She got up She
+Dialogue: 0,0:01:22.35,0:01:24.45,Default,,0,0,0,,heard a sound the low rumble
+Dialogue: 0,0:01:24.45,0:01:26.47,Default,,0,0,0,,of a small marine engine very
+Dialogue: 0,0:01:26.47,0:01:27.19,Default,,0,0,0,,close
+Dialogue: 0,0:01:28.09,0:01:29.80,Default,,0,0,0,,No boat arrived at the dock
+Dialogue: 0,0:01:30.20,0:01:31.87,Default,,0,0,0,,She told herself it was the
+Dialogue: 0,0:01:31.87,0:01:33.86,Default,,0,0,0,,wind in the eaves the way
+Dialogue: 0,0:01:33.86,0:01:35.50,Default,,0,0,0,,she had been telling herself things
+Dialogue: 0,0:01:35.50,0:01:37.37,Default,,0,0,0,,since her mother died and after
+Dialogue: 0,0:01:37.37,0:01:38.39,Default,,0,0,0,,a while she believed it
+Dialogue: 0,0:01:39.29,0:01:40.26,Default,,0,0,0,,She did not sleep again
+Dialogue: 0,0:01:41.58,0:01:42.86,Default,,0,0,0,,The work was small and the
+Dialogue: 0,0:01:42.86,0:01:44.73,Default,,0,0,0,,days were long Iris cleaned the
+Dialogue: 0,0:01:44.75,0:01:47.03,Default,,0,0,0,,lens She wrote the keeper's log
+Dialogue: 0,0:01:47.19,0:01:49.51,Default,,0,0,0,,entry her aunt had never finished
+Dialogue: 0,0:01:50.41,0:01:51.70,Default,,0,0,0,,She walked the path twice a
+Dialogue: 0,0:01:51.71,0:01:53.71,Default,,0,0,0,,day She did not yet write
+Dialogue: 0,0:01:53.71,0:01:54.95,Default,,0,0,0,,down the engine in the fog
+Dialogue: 0,0:01:55.36,0:01:56.85,Default,,0,0,0,,She did not yet understand that
+Dialogue: 0,0:01:56.85,0:01:58.22,Default,,0,0,0,,she was the kind of person
+Dialogue: 0,0:01:58.41,0:01:59.70,Default,,0,0,0,,who could not write down a
+Dialogue: 0,0:01:59.70,0:02:00.96,Default,,0,0,0,,thing that frightened her
+Dialogue: 0,0:02:02.77,0:02:04.65,Default,,0,0,0,,On the fifth day the kitchen
+Dialogue: 0,0:02:04.66,0:02:06.28,Default,,0,0,0,,floor buckled There had been a
+Dialogue: 0,0:02:06.28,0:02:07.97,Default,,0,0,0,,slow leak under the stove for
+Dialogue: 0,0:02:07.97,0:02:09.83,Default,,0,0,0,,years her aunt had meant to
+Dialogue: 0,0:02:09.84,0:02:11.12,Default,,0,0,0,,fix it and not
+Dialogue: 0,0:02:11.99,0:02:13.56,Default,,0,0,0,,Iris knelt with a pry bar
+Dialogue: 0,0:02:13.78,0:02:15.48,Default,,0,0,0,,and lifted the board Under it
+Dialogue: 0,0:02:15.49,0:02:17.55,Default,,0,0,0,,in a tight dry surprisingly clean
+Dialogue: 0,0:02:17.55,0:02:20.14,Default,,0,0,0,,space was a small water-tight metal
+Dialogue: 0,0:02:20.14,0:02:20.75,Default,,0,0,0,,box
+Dialogue: 0,0:02:21.63,0:02:23.08,Default,,0,0,0,,It had held her aunt's passport
+Dialogue: 0,0:02:23.08,0:02:25.00,Default,,0,0,0,,when Iris was a child Iris
+Dialogue: 0,0:02:25.00,0:02:26.08,Default,,0,0,0,,took it to the lamp room
+Dialogue: 0,0:02:26.24,0:02:27.57,Default,,0,0,0,,and set it under the lens
+Dialogue: 0,0:02:29.36,0:02:31.42,Default,,0,0,0,,The notebook was in code Marisol
+Dialogue: 0,0:02:31.42,0:02:32.89,Default,,0,0,0,,had taught Iris the code at
+Dialogue: 0,0:02:32.89,0:02:35.14,Default,,0,0,0,,twelve on a rainy afternoon in
+Dialogue: 0,0:02:35.14,0:02:36.76,Default,,0,0,0,,this kitchen If you ever need
+Dialogue: 0,0:02:36.77,0:02:38.01,Default,,0,0,0,,to write something you don't want
+Dialogue: 0,0:02:38.09,0:02:40.33,Default,,0,0,0,,anyone to read Marisol had said
+Dialogue: 0,0:02:40.75,0:02:41.89,Default,,0,0,0,,you write it in this
+Dialogue: 0,0:02:42.77,0:02:44.33,Default,,0,0,0,,It's just letters and numbers but
+Dialogue: 0,0:02:44.34,0:02:46.21,Default,,0,0,0,,it's ours Iris had thought it
+Dialogue: 0,0:02:46.22,0:02:48.04,Default,,0,0,0,,was a game She decoded the
+Dialogue: 0,0:02:48.04,0:02:50.27,Default,,0,0,0,,first page Someone comes by on
+Dialogue: 0,0:02:50.28,0:02:52.00,Default,,0,0,0,,Thursdays who is not on the
+Dialogue: 0,0:02:52.01,0:02:52.85,Default,,0,0,0,,service list
+Dialogue: 0,0:02:53.73,0:02:56.11,Default,,0,0,0,,Iris closed the notebook She opened
+Dialogue: 0,0:02:56.13,0:02:57.74,Default,,0,0,0,,it She closed it again
+Dialogue: 0,0:02:58.61,0:03:00.47,Default,,0,0,0,,On Thursday the supply boat came
+Dialogue: 0,0:03:00.91,0:03:02.84,Default,,0,0,0,,Halen brought the mail two cartons
+Dialogue: 0,0:03:02.84,0:03:05.07,Default,,0,0,0,,of eggs a new headlamp a
+Dialogue: 0,0:03:05.07,0:03:06.94,Default,,0,0,0,,sack of red onions In the
+Dialogue: 0,0:03:06.94,0:03:08.97,Default,,0,0,0,,kitchen while Halen put the eggs
+Dialogue: 0,0:03:08.97,0:03:12.07,Default,,0,0,0,,away Iris said Halen did my
+Dialogue: 0,0:03:12.07,0:03:13.67,Default,,0,0,0,,aunt ever mention a man named
+Dialogue: 0,0:03:13.67,0:03:16.29,Default,,0,0,0,,Renner to you Halen's hands stopped
+Dialogue: 0,0:03:16.30,0:03:17.70,Default,,0,0,0,,moving for the length of one
+Dialogue: 0,0:03:17.70,0:03:18.18,Default,,0,0,0,,breath
+Dialogue: 0,0:03:19.16,0:03:20.29,Default,,0,0,0,,Your aunt saw things on this
+Dialogue: 0,0:03:20.29,0:03:22.42,Default,,0,0,0,,island that weren't there Halen said
+Dialogue: 0,0:03:23.37,0:03:24.12,Default,,0,0,0,,Don't chase it
+Dialogue: 0,0:03:25.59,0:03:27.06,Default,,0,0,0,,Iris walked down the path with
+Dialogue: 0,0:03:27.08,0:03:29.25,Default,,0,0,0,,a flashlight The boathouse door was
+Dialogue: 0,0:03:29.25,0:03:31.24,Default,,0,0,0,,padlocked with the service padlock
+Dialogue: 0,0:03:32.13,0:03:33.13,Default,,0,0,0,,The knot on the hasp was
+Dialogue: 0,0:03:33.13,0:03:35.16,Default,,0,0,0,,a fisherman's loop not a knot
+Dialogue: 0,0:03:35.16,0:03:36.16,Default,,0,0,0,,the service used
+Dialogue: 0,0:03:37.04,0:03:39.27,Default,,0,0,0,,She photographed it She photographed it
+Dialogue: 0,0:03:39.27,0:03:40.53,Default,,0,0,0,,again from a different angle
+Dialogue: 0,0:03:41.43,0:03:43.82,Default,,0,0,0,,Iris decoded the next entry Her
+Dialogue: 0,0:03:44.00,0:03:47.03,Default,,0,0,0,,aunt photographed the Visitor The photograph
+Dialogue: 0,0:03:47.04,0:03:48.93,Default,,0,0,0,,was missing from the journal but
+Dialogue: 0,0:03:48.93,0:03:50.83,Default,,0,0,0,,a small negative strip was hidden
+Dialogue: 0,0:03:50.83,0:03:52.05,Default,,0,0,0,,behind the journal's spine
+Dialogue: 0,0:03:52.92,0:03:54.71,Default,,0,0,0,,The fourth frame showed a figure
+Dialogue: 0,0:03:54.71,0:03:55.71,Default,,0,0,0,,at the end of the dock
+Dialogue: 0,0:03:55.71,0:03:57.72,Default,,0,0,0,,in the early dawn light bending
+Dialogue: 0,0:03:57.86,0:03:59.49,Default,,0,0,0,,over a crate The face was
+Dialogue: 0,0:03:59.49,0:04:02.57,Default,,0,0,0,,in profile half-shadowed Iris did not
+Dialogue: 0,0:04:02.59,0:04:03.94,Default,,0,0,0,,recognize the face
+Dialogue: 0,0:04:04.84,0:04:06.14,Default,,0,0,0,,She did not need to recognize
+Dialogue: 0,0:04:06.16,0:04:07.92,Default,,0,0,0,,it Her aunt had named it
+Dialogue: 0,0:04:07.93,0:04:09.61,Default,,0,0,0,,in the notebook The face was
+Dialogue: 0,0:04:09.61,0:04:10.64,Default,,0,0,0,,a man named Renner
+Dialogue: 0,0:04:11.53,0:04:13.57,Default,,0,0,0,,Iris developed the negative in her
+Dialogue: 0,0:04:13.58,0:04:15.82,Default,,0,0,0,,aunt's old enlarger She made a
+Dialogue: 0,0:04:15.83,0:04:17.68,Default,,0,0,0,,contact sheet and a single print
+Dialogue: 0,0:04:18.55,0:04:19.46,Default,,0,0,0,,She put the print in the
+Dialogue: 0,0:04:19.46,0:04:21.60,Default,,0,0,0,,green notebook and put the green
+Dialogue: 0,0:04:21.60,0:04:23.13,Default,,0,0,0,,notebook back in the metal box
+Dialogue: 0,0:04:23.49,0:04:24.71,Default,,0,0,0,,and put the metal box back
+Dialogue: 0,0:04:24.73,0:04:26.30,Default,,0,0,0,,under the floor and put the
+Dialogue: 0,0:04:26.30,0:04:27.08,Default,,0,0,0,,board back
+Dialogue: 0,0:04:28.91,0:04:30.71,Default,,0,0,0,,Inspector Delacroix came on the next
+Dialogue: 0,0:04:30.72,0:04:34.41,Default,,0,0,0,,Thursday She was warm professional She
+Dialogue: 0,0:04:34.42,0:04:35.96,Default,,0,0,0,,had a tidy way of standing
+Dialogue: 0,0:04:35.96,0:04:37.98,Default,,0,0,0,,that Iris recognized from her aunt
+Dialogue: 0,0:04:38.49,0:04:39.86,Default,,0,0,0,,the way a person stands who
+Dialogue: 0,0:04:39.87,0:04:41.35,Default,,0,0,0,,has spent twenty years on government
+Dialogue: 0,0:04:41.37,0:04:42.78,Default,,0,0,0,,boats in heavy weather
+Dialogue: 0,0:04:43.72,0:04:44.66,Default,,0,0,0,,I was the one who found
+Dialogue: 0,0:04:44.66,0:04:46.68,Default,,0,0,0,,her Wren said Iris let that
+Dialogue: 0,0:04:46.68,0:04:47.08,Default,,0,0,0,,sit
+Dialogue: 0,0:04:47.97,0:04:51.06,Default,,0,0,0,,Wren waited professionally for the silence
+Dialogue: 0,0:04:51.06,0:04:52.94,Default,,0,0,0,,to break Iris did not break
+Dialogue: 0,0:04:52.94,0:04:53.12,Default,,0,0,0,,it
+Dialogue: 0,0:04:54.01,0:04:55.27,Default,,0,0,0,,At the bottom of the tower
+Dialogue: 0,0:04:55.67,0:04:58.95,Default,,0,0,0,,Wren said conversationally Your aunt always
+Dialogue: 0,0:04:58.96,0:05:00.48,Default,,0,0,0,,said the lens was the only
+Dialogue: 0,0:05:00.49,0:05:03.15,Default,,0,0,0,,honest witness on this island Iris
+Dialogue: 0,0:05:03.16,0:05:04.90,Default,,0,0,0,,did not move The line was
+Dialogue: 0,0:05:04.91,0:05:06.69,Default,,0,0,0,,from the green notebook Iris had
+Dialogue: 0,0:05:06.70,0:05:08.08,Default,,0,0,0,,not told anyone she had the
+Dialogue: 0,0:05:08.08,0:05:08.66,Default,,0,0,0,,notebook
+Dialogue: 0,0:05:09.57,0:05:11.78,Default,,0,0,0,,She smiled She said She used
+Dialogue: 0,0:05:11.78,0:05:13.57,Default,,0,0,0,,to say a lot of things
+Dialogue: 0,0:05:14.10,0:05:16.07,Default,,0,0,0,,Wren smiled back Wren left on
+Dialogue: 0,0:05:16.09,0:05:17.78,Default,,0,0,0,,the tender Iris sat in the
+Dialogue: 0,0:05:17.78,0:05:19.39,Default,,0,0,0,,lamp room with the lens turning
+Dialogue: 0,0:05:19.39,0:05:21.49,Default,,0,0,0,,above her and the contact sheet
+Dialogue: 0,0:05:21.50,0:05:23.73,Default,,0,0,0,,in her hand and understood in
+Dialogue: 0,0:05:23.73,0:05:26.19,Default,,0,0,0,,a single slow breath that her
+Dialogue: 0,0:05:26.42,0:05:27.92,Default,,0,0,0,,aunt had not fallen on the
+Dialogue: 0,0:05:27.93,0:05:28.46,Default,,0,0,0,,path
+Dialogue: 0,0:05:29.33,0:05:30.44,Default,,0,0,0,,Her aunt had been killed by
+Dialogue: 0,0:05:30.45,0:05:31.54,Default,,0,0,0,,a man who came to the
+Dialogue: 0,0:05:31.55,0:05:34.15,Default,,0,0,0,,island on Thursdays and the inspector
+Dialogue: 0,0:05:34.15,0:05:34.53,Default,,0,0,0,,knew
+Dialogue: 0,0:05:35.41,0:05:36.54,Default,,0,0,0,,Iris sat with her hands on
+Dialogue: 0,0:05:36.54,0:05:38.40,Default,,0,0,0,,the contact sheet and waited for
+Dialogue: 0,0:05:38.40,0:05:40.26,Default,,0,0,0,,her breath to come back and
+Dialogue: 0,0:05:40.27,0:05:41.51,Default,,0,0,0,,after a while it came back
+Dialogue: 0,0:05:41.93,0:05:43.77,Default,,0,0,0,,Then she went downstairs and packed
+Dialogue: 0,0:05:43.79,0:05:46.02,Default,,0,0,0,,the contact sheet the print and
+Dialogue: 0,0:05:46.02,0:05:47.64,Default,,0,0,0,,the negatives into the metal box
+Dialogue: 0,0:05:47.79,0:05:48.83,Default,,0,0,0,,and the metal box into her
+Dialogue: 0,0:05:48.83,0:05:50.42,Default,,0,0,0,,bag and her bag into the
+Dialogue: 0,0:05:50.44,0:05:51.35,Default,,0,0,0,,bottom of the well at the
+Dialogue: 0,0:05:51.35,0:05:53.43,Default,,0,0,0,,cottage where the water was cold
+Dialogue: 0,0:05:53.52,0:05:54.43,Default,,0,0,0,,and the box would not be
+Dialogue: 0,0:05:54.43,0:05:56.29,Default,,0,0,0,,found She did not yet know
+Dialogue: 0,0:05:56.29,0:05:57.55,Default,,0,0,0,,what she would do with what
+Dialogue: 0,0:05:57.55,0:05:59.68,Default,,0,0,0,,she had She only knew that
+Dialogue: 0,0:05:59.68,0:06:00.29,Default,,0,0,0,,she had it
+Dialogue: 0,0:06:01.20,0:06:02.52,Default,,0,0,0,,Iris went back to the green
+Dialogue: 0,0:06:02.52,0:06:05.22,Default,,0,0,0,,notebook The next entry named Renner
+Dialogue: 0,0:06:05.79,0:06:09.18,Default,,0,0,0,,Otis Renner 53 retired fisherman out
+Dialogue: 0,0:06:09.18,0:06:10.74,Default,,0,0,0,,of Neah Bay who had used
+Dialogue: 0,0:06:10.74,0:06:12.18,Default,,0,0,0,,the boathouse as a drop point
+Dialogue: 0,0:06:12.18,0:06:13.91,Default,,0,0,0,,for forty years and paid the
+Dialogue: 0,0:06:13.91,0:06:15.84,Default,,0,0,0,,inspector since 1995
+Dialogue: 0,0:06:16.73,0:06:18.56,Default,,0,0,0,,Her aunt had written If I
+Dialogue: 0,0:06:18.56,0:06:20.33,Default,,0,0,0,,die on this island it was
+Dialogue: 0,0:06:20.33,0:06:22.82,Default,,0,0,0,,Renner Iris read the dates and
+Dialogue: 0,0:06:22.82,0:06:24.89,Default,,0,0,0,,the amounts She read the names
+Dialogue: 0,0:06:25.29,0:06:26.35,Default,,0,0,0,,She read the names of the
+Dialogue: 0,0:06:26.35,0:06:28.53,Default,,0,0,0,,three keepers before her who had
+Dialogue: 0,0:06:28.62,0:06:30.48,Default,,0,0,0,,died on this island and she
+Dialogue: 0,0:06:30.48,0:06:31.84,Default,,0,0,0,,read that none of them had
+Dialogue: 0,0:06:31.94,0:06:33.46,Default,,0,0,0,,died the way the service said
+Dialogue: 0,0:06:33.47,0:06:34.21,Default,,0,0,0,,they had died
+Dialogue: 0,0:06:36.03,0:06:38.10,Default,,0,0,0,,The service padlock was locked but
+Dialogue: 0,0:06:38.10,0:06:40.00,Default,,0,0,0,,the boathouse door was wood and
+Dialogue: 0,0:06:40.00,0:06:41.64,Default,,0,0,0,,the frame was rotten where the
+Dialogue: 0,0:06:41.64,0:06:43.35,Default,,0,0,0,,salt had worked into it for
+Dialogue: 0,0:06:43.35,0:06:44.23,Default,,0,0,0,,forty years
+Dialogue: 0,0:06:45.11,0:06:46.88,Default,,0,0,0,,Iris pried the frame with the
+Dialogue: 0,0:06:46.89,0:06:49.25,Default,,0,0,0,,back of an axe Inside under
+Dialogue: 0,0:06:49.25,0:06:50.87,Default,,0,0,0,,the tarp was a wooden crate
+Dialogue: 0,0:06:50.89,0:06:53.86,Default,,0,0,0,,with brass corners cartons of cigarettes
+Dialogue: 0,0:06:54.02,0:06:56.24,Default,,0,0,0,,three small canvas sacks a length
+Dialogue: 0,0:06:56.25,0:06:57.11,Default,,0,0,0,,of fishing line
+Dialogue: 0,0:06:57.99,0:06:59.50,Default,,0,0,0,,She took one carton and one
+Dialogue: 0,0:06:59.50,0:07:02.85,Default,,0,0,0,,sack She photographed everything She shut
+Dialogue: 0,0:07:02.85,0:07:04.89,Default,,0,0,0,,the boathouse and pried the frame
+Dialogue: 0,0:07:04.90,0:07:05.97,Default,,0,0,0,,back into place
+Dialogue: 0,0:07:07.81,0:07:09.28,Default,,0,0,0,,Halen came up on the Petrel
+Dialogue: 0,0:07:09.28,0:07:11.23,Default,,0,0,0,,alone She came into the cottage
+Dialogue: 0,0:07:11.23,0:07:13.44,Default,,0,0,0,,without speaking She shut the door
+Dialogue: 0,0:07:13.85,0:07:14.95,Default,,0,0,0,,She stood with her back to
+Dialogue: 0,0:07:14.95,0:07:16.66,Default,,0,0,0,,it I knew Halen said
+Dialogue: 0,0:07:17.57,0:07:19.24,Default,,0,0,0,,I knew your aunt suspected I
+Dialogue: 0,0:07:19.24,0:07:20.49,Default,,0,0,0,,told her not to chase it
+Dialogue: 0,0:07:20.92,0:07:22.36,Default,,0,0,0,,She didn't listen to me You
+Dialogue: 0,0:07:22.38,0:07:24.05,Default,,0,0,0,,listen to me Pack your bag
+Dialogue: 0,0:07:24.45,0:07:25.80,Default,,0,0,0,,We are leaving on this tide
+Dialogue: 0,0:07:26.15,0:07:27.49,Default,,0,0,0,,Iris did not pack her bag
+Dialogue: 0,0:07:28.39,0:07:29.70,Default,,0,0,0,,She set the contact sheet on
+Dialogue: 0,0:07:29.70,0:07:31.81,Default,,0,0,0,,the table the negative strip the
+Dialogue: 0,0:07:31.82,0:07:34.23,Default,,0,0,0,,green notebook the carton the canvas
+Dialogue: 0,0:07:34.23,0:07:36.81,Default,,0,0,0,,sack Halen said I will come
+Dialogue: 0,0:07:36.81,0:07:38.07,Default,,0,0,0,,for you Thursday morning
+Dialogue: 0,0:07:38.97,0:07:41.24,Default,,0,0,0,,We leave together Whatever you have
+Dialogue: 0,0:07:41.51,0:07:42.37,Default,,0,0,0,,we take it to the Coast
+Dialogue: 0,0:07:42.39,0:07:43.64,Default,,0,0,0,,Guard in Port Angeles
+Dialogue: 0,0:07:44.64,0:07:47.29,Default,,0,0,0,,The shortwave carried a small-craft advisory
+Dialogue: 0,0:07:47.76,0:07:51.26,Default,,0,0,0,,gale warning eight-to-ten-foot swell the Petrel
+Dialogue: 0,0:07:51.28,0:07:52.65,Default,,0,0,0,,would not be able to dock
+Dialogue: 0,0:07:53.08,0:07:54.88,Default,,0,0,0,,Iris climbed to the lamp room
+Dialogue: 0,0:07:55.75,0:07:57.17,Default,,0,0,0,,She took the old crank handle
+Dialogue: 0,0:07:57.18,0:07:58.73,Default,,0,0,0,,from the closet She read the
+Dialogue: 0,0:07:58.74,0:08:00.59,Default,,0,0,0,,page in the keeper's manual her
+Dialogue: 0,0:08:00.60,0:08:02.36,Default,,0,0,0,,aunt had bookmarked with a gull's
+Dialogue: 0,0:08:02.36,0:08:02.85,Default,,0,0,0,,feather
+Dialogue: 0,0:08:03.74,0:08:05.67,Default,,0,0,0,,She read it twice She sat
+Dialogue: 0,0:08:05.68,0:08:06.88,Default,,0,0,0,,under the lens with the wind
+Dialogue: 0,0:08:06.88,0:08:08.29,Default,,0,0,0,,in the glass and the lamp
+Dialogue: 0,0:08:08.35,0:08:10.22,Default,,0,0,0,,turning above her and her aunt's
+Dialogue: 0,0:08:10.22,0:08:12.44,Default,,0,0,0,,coat around her shoulders and she
+Dialogue: 0,0:08:12.45,0:08:15.26,Default,,0,0,0,,understood in a slow breath what
+Dialogue: 0,0:08:15.26,0:08:17.04,Default,,0,0,0,,her aunt had bookmarked for her
+Dialogue: 0,0:08:18.84,0:08:20.12,Default,,0,0,0,,At half past two a boat
+Dialogue: 0,0:08:20.26,0:08:22.55,Default,,0,0,0,,engine sounded through the rain It
+Dialogue: 0,0:08:22.57,0:08:24.59,Default,,0,0,0,,was not the Petrel The Petrel
+Dialogue: 0,0:08:24.60,0:08:26.10,Default,,0,0,0,,had a diesel this was a
+Dialogue: 0,0:08:26.10,0:08:28.88,Default,,0,0,0,,gasoline engine older with a knock
+Dialogue: 0,0:08:29.75,0:08:31.33,Default,,0,0,0,,Iris went down to the cottage
+Dialogue: 0,0:08:31.55,0:08:32.61,Default,,0,0,0,,took the metal box from the
+Dialogue: 0,0:08:32.61,0:08:34.66,Default,,0,0,0,,well put the print the negatives
+Dialogue: 0,0:08:34.68,0:08:36.79,Default,,0,0,0,,the contact sheet the notebook into
+Dialogue: 0,0:08:36.79,0:08:38.61,Default,,0,0,0,,a waterproof bag and put the
+Dialogue: 0,0:08:38.62,0:08:40.30,Default,,0,0,0,,bag inside her aunt's coat
+Dialogue: 0,0:08:41.17,0:08:41.88,Default,,0,0,0,,She went up to the lamp
+Dialogue: 0,0:08:41.89,0:08:43.73,Default,,0,0,0,,room She took the old crank
+Dialogue: 0,0:08:43.75,0:08:45.47,Default,,0,0,0,,handle from the closet A man
+Dialogue: 0,0:08:45.47,0:08:46.27,Default,,0,0,0,,came up the dock
+Dialogue: 0,0:08:47.14,0:08:48.19,Default,,0,0,0,,He knocked on the tower door
+Dialogue: 0,0:08:48.21,0:08:49.60,Default,,0,0,0,,with the pipe I know you're
+Dialogue: 0,0:08:49.61,0:08:51.35,Default,,0,0,0,,up there he said I knew
+Dialogue: 0,0:08:51.36,0:08:51.96,Default,,0,0,0,,your aunt too
+Dialogue: 0,0:08:52.84,0:08:55.28,Default,,0,0,0,,Iris climbed to the catwalk She
+Dialogue: 0,0:08:55.28,0:08:56.54,Default,,0,0,0,,set the crank handle into the
+Dialogue: 0,0:08:56.55,0:08:59.04,Default,,0,0,0,,lens cam socket and turned The
+Dialogue: 0,0:08:59.04,0:09:00.63,Default,,0,0,0,,lens which had been turning on
+Dialogue: 0,0:09:00.64,0:09:03.10,Default,,0,0,0,,the photocell stopped She turned the
+Dialogue: 0,0:09:03.10,0:09:03.68,Default,,0,0,0,,crank again
+Dialogue: 0,0:09:04.57,0:09:05.79,Default,,0,0,0,,The lens began to turn by
+Dialogue: 0,0:09:05.81,0:09:07.91,Default,,0,0,0,,hand She turned it until the
+Dialogue: 0,0:09:07.91,0:09:10.52,Default,,0,0,0,,lens pointed at the fog-signal cam
+Dialogue: 0,0:09:10.95,0:09:12.28,Default,,0,0,0,,She set the crank handle into
+Dialogue: 0,0:09:12.28,0:09:13.18,Default,,0,0,0,,the cam socket
+Dialogue: 0,0:09:14.05,0:09:16.61,Default,,0,0,0,,She turned The cam engaged the
+Dialogue: 0,0:09:16.61,0:09:18.87,Default,,0,0,0,,fog-signal whistle The whistle had not
+Dialogue: 0,0:09:18.89,0:09:21.25,Default,,0,0,0,,sounded in thirty years It sounded
+Dialogue: 0,0:09:21.26,0:09:25.16,Default,,0,0,0,,now long low iron long-short-long-short-long The
+Dialogue: 0,0:09:25.18,0:09:27.38,Default,,0,0,0,,old Coast Guard SOS for lighthouse
+Dialogue: 0,0:09:27.38,0:09:29.65,Default,,0,0,0,,keepers before radio the one her
+Dialogue: 0,0:09:29.66,0:09:31.12,Default,,0,0,0,,aunt had taught her at twelve
+Dialogue: 0,0:09:31.54,0:09:32.87,Default,,0,0,0,,on the same rainy afternoon as
+Dialogue: 0,0:09:32.87,0:09:33.33,Default,,0,0,0,,the code
+Dialogue: 0,0:09:34.22,0:09:35.56,Default,,0,0,0,,Out on the water beyond the
+Dialogue: 0,0:09:35.56,0:09:38.28,Default,,0,0,0,,storm a small diesel engine changed
+Dialogue: 0,0:09:38.29,0:09:38.65,Default,,0,0,0,,note
+Dialogue: 0,0:09:39.55,0:09:41.28,Default,,0,0,0,,The Petrel came through the channel
+Dialogue: 0,0:09:41.36,0:09:42.36,Default,,0,0,0,,at the top of the engine's
+Dialogue: 0,0:09:42.36,0:09:42.89,Default,,0,0,0,,range
+Dialogue: 0,0:09:43.78,0:09:45.88,Default,,0,0,0,,Dawn The Coast Guard came They
+Dialogue: 0,0:09:45.88,0:09:48.26,Default,,0,0,0,,took Renner Iris gave the waterproof
+Dialogue: 0,0:09:48.26,0:09:50.93,Default,,0,0,0,,bag to the officer Wren Delacroix
+Dialogue: 0,0:09:50.94,0:09:52.76,Default,,0,0,0,,was arrested on the mainland at
+Dialogue: 0,0:09:52.91,0:09:55.02,Default,,0,0,0,,eight that morning Iris heard it
+Dialogue: 0,0:09:55.16,0:09:56.06,Default,,0,0,0,,on the shortwave
+Dialogue: 0,0:09:56.93,0:09:58.40,Default,,0,0,0,,Renner sat on a dock cleat
+Dialogue: 0,0:09:58.42,0:09:59.67,Default,,0,0,0,,with the pipe in his hand
+Dialogue: 0,0:10:00.08,0:10:02.19,Default,,0,0,0,,Iris said You killed my aunt
+Dialogue: 0,0:10:02.62,0:10:04.91,Default,,0,0,0,,He said I did She said
+Dialogue: 0,0:10:04.94,0:10:07.06,Default,,0,0,0,,Why He said The route fed
+Dialogue: 0,0:10:07.07,0:10:08.96,Default,,0,0,0,,my family for forty years
+Dialogue: 0,0:10:09.84,0:10:11.04,Default,,0,0,0,,Your aunt should have stayed in
+Dialogue: 0,0:10:11.05,0:10:12.80,Default,,0,0,0,,the kitchen Iris did not hit
+Dialogue: 0,0:10:12.81,0:10:14.28,Default,,0,0,0,,him She did not speak to
+Dialogue: 0,0:10:14.30,0:10:15.73,Default,,0,0,0,,him again She sat on a
+Dialogue: 0,0:10:15.74,0:10:17.02,Default,,0,0,0,,dock cleat and waited
+Dialogue: 0,0:10:17.91,0:10:19.97,Default,,0,0,0,,Six months later a postcard arrived
+Dialogue: 0,0:10:19.97,0:10:22.43,Default,,0,0,0,,at Bose's mainland home Iris had
+Dialogue: 0,0:10:22.43,0:10:25.56,Default,,0,0,0,,enrolled in a maritime-archaeology program The
+Dialogue: 0,0:10:25.56,0:10:27.69,Default,,0,0,0,,postcard was a photograph of Cape
+Dialogue: 0,0:10:27.70,0:10:28.96,Default,,0,0,0,,Vespers from the water
+Dialogue: 0,0:10:29.84,0:10:31.20,Default,,0,0,0,,On the back in the code
+Dialogue: 0,0:10:31.20,0:10:33.56,Default,,0,0,0,,Marisol had taught her Iris had
+Dialogue: 0,0:10:33.57,0:10:36.07,Default,,0,0,0,,written For Marisol The lens on
+Dialogue: 0,0:10:36.07,0:10:38.02,Default,,0,0,0,,Cape Vespers kept turning It does
+Dialogue: 0,0:10:38.02,0:10:38.65,Default,,0,0,0,,not lie

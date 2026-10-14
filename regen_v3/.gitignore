@@ -1,0 +1,7 @@
+assets/narration_per_shot/*.mp3
+assets/images/*.png
+assets/bgm/*.mp3
+assets/stills/*.png
+checkpoints/
+output/*.mp4
+output/*.mp3

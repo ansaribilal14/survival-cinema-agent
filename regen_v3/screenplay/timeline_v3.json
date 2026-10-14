@@ -1,0 +1,1093 @@
+{
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "scene_number": 1,
+      "title": "Boat at dawn",
+      "start_time": 0.0,
+      "end_time": 17.256,
+      "shots": [
+        {
+          "shot_id": "S01_SH01",
+          "duration": 6.376,
+          "audio_duration": 5.976,
+          "start_time": 0.0,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S01_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S01_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S01_SH01.words.json",
+          "narration": "The boat came in at dawn, the way Marisol always said it should. Iris Vaughn was twenty-two.",
+          "image_prompt": "Wide 16:9 of the lighthouse island through fog at dawn, supply boat in foreground, Iris on bow. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S01_SH02",
+          "duration": 7.096,
+          "audio_duration": 6.696,
+          "start_time": 6.376,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S01_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S01_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S01_SH02.words.json",
+          "narration": "She was the new relief keeper at Cape Vespers. Her aunt had died on this island the previous winter.",
+          "image_prompt": "Iris's face from side, dark brown eyes, small scar on right eyebrow. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S01_SH03",
+          "duration": 3.784,
+          "audio_duration": 3.384,
+          "start_time": 13.472000000000001,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S01_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S01_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S01_SH03.words.json",
+          "narration": "Everyone said it was a fall. Iris did not believe it.",
+          "image_prompt": "The lighthouse with lamp turning, visible through thin fog. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S02",
+      "scene_number": 2,
+      "title": "The dock",
+      "start_time": 17.256,
+      "end_time": 39.696,
+      "shots": [
+        {
+          "shot_id": "S02_SH01",
+          "duration": 8.416,
+          "audio_duration": 8.016,
+          "start_time": 17.256,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S02_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S02_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S02_SH01.words.json",
+          "narration": "Halen Yoo was the supply-boat captain. She had known Marisol for ten years. She had known Iris since Iris was twelve.",
+          "image_prompt": "Two women unload crates from the Petrel at the dock. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S02_SH02",
+          "duration": 8.944,
+          "audio_duration": 8.544,
+          "start_time": 25.672,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S02_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S02_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S02_SH02.words.json",
+          "narration": "The first thing she said to Iris at the dock was: you don't have to do this. The second thing she said was: I will come every Thursday.",
+          "image_prompt": "Iris's hands lifting a crate of eggs. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S02_SH03",
+          "duration": 5.08,
+          "audio_duration": 4.68,
+          "start_time": 34.616,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S02_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S02_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S02_SH03.words.json",
+          "narration": "Iris heard the third thing Halen did not say: I am afraid for you.",
+          "image_prompt": "Halen's face, guarded expression. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S03",
+      "scene_number": 3,
+      "title": "The tower",
+      "start_time": 39.696,
+      "end_time": 59.967999999999996,
+      "shots": [
+        {
+          "shot_id": "S03_SH01",
+          "duration": 5.968,
+          "audio_duration": 5.568,
+          "start_time": 39.696,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S03_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH01.words.json",
+          "narration": "The tower stair was a hundred and twelve steps. Iris had counted them at fourteen.",
+          "image_prompt": "Looking up the spiral stair, Iris ascending. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow tilt-up"
+        },
+        {
+          "shot_id": "S03_SH02",
+          "duration": 7.384,
+          "audio_duration": 6.984,
+          "start_time": 45.664,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S03_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH02.words.json",
+          "narration": "She counted them again at twenty-two, the way a person touches a bruise to see if it still hurts.",
+          "image_prompt": "Lamp room with Fresnel lens, Iris in doorway. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S03_SH03",
+          "duration": 4.288,
+          "audio_duration": 3.888,
+          "start_time": 53.048,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S03_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH03.words.json",
+          "narration": "At the top, her aunt's woolen coat was still on the hook by the door.",
+          "image_prompt": "Navy wool coat on iron hook, Iris's hand lifting it. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S03_SH04",
+          "duration": 2.632,
+          "audio_duration": 2.232,
+          "start_time": 57.336,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S03_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S03_SH04.words.json",
+          "narration": "Iris put it on. It fit.",
+          "image_prompt": "Iris in the navy coat, too big in shoulders, in lamp room. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S04",
+      "scene_number": 4,
+      "title": "The cottage",
+      "start_time": 59.967999999999996,
+      "end_time": 76.552,
+      "shots": [
+        {
+          "shot_id": "S04_SH01",
+          "duration": 8.224,
+          "audio_duration": 7.824,
+          "start_time": 59.967999999999996,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S04_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S04_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S04_SH01.words.json",
+          "narration": "The cottage had been half-cleared by the service. Marisol's books were stacked against the wall by someone who did not know which books mattered.",
+          "image_prompt": "Cottage kitchen with three chairs, Iris at table. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S04_SH02",
+          "duration": 5.32,
+          "audio_duration": 4.92,
+          "start_time": 68.192,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S04_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S04_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S04_SH02.words.json",
+          "narration": "Iris set her bag on the table and put her hand on the back of her aunt's chair.",
+          "image_prompt": "Broken cane chair, Iris's thumb on broken strand. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S04_SH03",
+          "duration": 3.04,
+          "audio_duration": 2.64,
+          "start_time": 73.512,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S04_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S04_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S04_SH03.words.json",
+          "narration": "She would re-cane it before she left.",
+          "image_prompt": "Iris eating alone at the table. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S05",
+      "scene_number": 5,
+      "title": "First night",
+      "start_time": 76.552,
+      "end_time": 101.46400000000001,
+      "shots": [
+        {
+          "shot_id": "S05_SH01",
+          "duration": 11.44,
+          "audio_duration": 11.04,
+          "start_time": 76.552,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S05_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S05_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S05_SH01.words.json",
+          "narration": "Iris woke at three in the morning with the fog pressing at the window. She got up. She heard a sound \u2014 the low rumble of a small marine engine, very close.",
+          "image_prompt": "Iris sitting up in bed, just woken, hair loose. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S05_SH02",
+          "duration": 11.200000000000001,
+          "audio_duration": 10.8,
+          "start_time": 87.992,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S05_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S05_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S05_SH02.words.json",
+          "narration": "No boat arrived at the dock. She told herself it was the wind in the eaves, the way she had been telling herself things since her mother died, and after a while she believed it.",
+          "image_prompt": "Iris at kitchen window looking into fog, lamp rotation sweeps across window. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S05_SH03",
+          "duration": 2.2720000000000002,
+          "audio_duration": 1.872,
+          "start_time": 99.19200000000001,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S05_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S05_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S05_SH03.words.json",
+          "narration": "She did not sleep again.",
+          "image_prompt": "Dock at night in heavy fog, no boat, amber lamp rotation. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S06",
+      "scene_number": 6,
+      "title": "Daily routine",
+      "start_time": 101.46400000000001,
+      "end_time": 122.68,
+      "shots": [
+        {
+          "shot_id": "S06_SH01",
+          "duration": 8.848,
+          "audio_duration": 8.448,
+          "start_time": 101.46400000000001,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S06_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S06_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S06_SH01.words.json",
+          "narration": "The work was small and the days were long. Iris cleaned the lens. She wrote the keeper's log entry her aunt had never finished.",
+          "image_prompt": "Iris's hands cleaning the Fresnel lens. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S06_SH02",
+          "duration": 11.44,
+          "audio_duration": 11.04,
+          "start_time": 110.31200000000001,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S06_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S06_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S06_SH02.words.json",
+          "narration": "She walked the path twice a day. She did not yet write down the engine in the fog. She did not yet understand that she was the kind of person who could not write down a thing that frightened her.",
+          "image_prompt": "Iris walking the path with camera. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S06_SH03",
+          "duration": 0.928,
+          "audio_duration": 0.528,
+          "start_time": 121.75200000000001,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S06_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S06_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S06_SH03.words.json",
+          "narration": "",
+          "image_prompt": "Iris crouching at rocks with camera, now wearing red knit cap. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S07",
+      "scene_number": 7,
+      "title": "The box under the floor",
+      "start_time": 122.68,
+      "end_time": 149.264,
+      "shots": [
+        {
+          "shot_id": "S07_SH01",
+          "duration": 9.208,
+          "audio_duration": 8.808,
+          "start_time": 122.68,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S07_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH01.words.json",
+          "narration": "On the fifth day, the kitchen floor buckled. There had been a slow leak under the stove for years; her aunt had meant to fix it and not.",
+          "image_prompt": "Iris's hands sliding pry bar under floorboard. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S07_SH02",
+          "duration": 9.64,
+          "audio_duration": 9.24,
+          "start_time": 131.888,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S07_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH02.words.json",
+          "narration": "Iris knelt with a pry bar and lifted the board. Under it, in a tight, dry, surprisingly clean space, was a small water-tight metal box.",
+          "image_prompt": "Metal box in space under floorboard, Iris's hands lifting it. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S07_SH03",
+          "duration": 6.808000000000001,
+          "audio_duration": 6.408,
+          "start_time": 141.52800000000002,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S07_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH03.words.json",
+          "narration": "It had held her aunt's passport when Iris was a child. Iris took it to the lamp room and set it under the lens.",
+          "image_prompt": "Iris on iron stair with box on lap, lens visible above. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S07_SH04",
+          "duration": 0.928,
+          "audio_duration": 0.528,
+          "start_time": 148.336,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S07_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S07_SH04.words.json",
+          "narration": "",
+          "image_prompt": "Open box: green notebook, pencil, negative strip in paper sleeve. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        }
+      ]
+    },
+    {
+      "scene_id": "S08",
+      "scene_number": 8,
+      "title": "The first decoded entry",
+      "start_time": 149.264,
+      "end_time": 178.52,
+      "shots": [
+        {
+          "shot_id": "S08_SH01",
+          "duration": 13.408,
+          "audio_duration": 13.008,
+          "start_time": 149.264,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S08_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S08_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S08_SH01.words.json",
+          "narration": "The notebook was in code. Marisol had taught Iris the code at twelve, on a rainy afternoon in this kitchen. 'If you ever need to write something you don't want anyone to read,' Marisol had said, 'you write it in this.",
+          "image_prompt": "Iris on iron stair with green notebook, reading, amber light from rotating lens. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S08_SH02",
+          "duration": 10.96,
+          "audio_duration": 10.56,
+          "start_time": 162.672,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S08_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S08_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S08_SH02.words.json",
+          "narration": "It's just letters and numbers but it's ours.' Iris had thought it was a game. She decoded the first page. Someone comes by on Thursdays who is not on the service list.",
+          "image_prompt": "Notebook page in code, mixed letters and numbers in pencil. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S08_SH03",
+          "duration": 4.888000000000001,
+          "audio_duration": 4.488,
+          "start_time": 173.632,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S08_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S08_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S08_SH03.words.json",
+          "narration": "Iris closed the notebook. She opened it. She closed it again.",
+          "image_prompt": "Iris's face, dark brown eyes still, closes notebook, opens it, closes again. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S09",
+      "scene_number": 9,
+      "title": "Halen returns (Thursday 1)",
+      "start_time": 178.52,
+      "end_time": 205.496,
+      "shots": [
+        {
+          "shot_id": "S09_SH01",
+          "duration": 20.464,
+          "audio_duration": 20.064,
+          "start_time": 178.52,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S09_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S09_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S09_SH01.words.json",
+          "narration": "On Thursday the supply boat came. Halen brought the mail, two cartons of eggs, a new headlamp, a sack of red onions. In the kitchen, while Halen put the eggs away, Iris said: 'Halen, did my aunt ever mention a man named Renner to you?' Halen's hands stopped moving for the length of one breath.",
+          "image_prompt": "Halen unloading onions, Iris with mail bag at dock. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S09_SH02",
+          "duration": 4.24,
+          "audio_duration": 3.84,
+          "start_time": 198.984,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S09_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S09_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S09_SH02.words.json",
+          "narration": "'Your aunt saw things on this island that weren't there,' Halen said.",
+          "image_prompt": "Halen's face, hands stopped, guarded expression. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S09_SH03",
+          "duration": 2.2720000000000002,
+          "audio_duration": 1.872,
+          "start_time": 203.22400000000002,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S09_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S09_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S09_SH03.words.json",
+          "narration": "'Don't chase it.'",
+          "image_prompt": "Iris and Halen facing each other across crate of onions. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S10",
+      "scene_number": 10,
+      "title": "The path at night",
+      "start_time": 205.496,
+      "end_time": 221.336,
+      "shots": [
+        {
+          "shot_id": "S10_SH01",
+          "duration": 6.5200000000000005,
+          "audio_duration": 6.12,
+          "start_time": 205.496,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S10_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S10_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S10_SH01.words.json",
+          "narration": "Iris walked down the path with a flashlight. The boathouse door was padlocked with the service padlock.",
+          "image_prompt": "Iris on path with brass flashlight, amber lamp rotation sweeping. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S10_SH02",
+          "duration": 4.912,
+          "audio_duration": 4.512,
+          "start_time": 212.01600000000002,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S10_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S10_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S10_SH02.words.json",
+          "narration": "The knot on the hasp was a fisherman's loop, not a knot the service used.",
+          "image_prompt": "Fisherman's loop knot on boathouse hasp, Iris's flashlight illuminating. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S10_SH03",
+          "duration": 4.408,
+          "audio_duration": 4.008,
+          "start_time": 216.92800000000003,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S10_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S10_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S10_SH03.words.json",
+          "narration": "She photographed it. She photographed it again from a different angle.",
+          "image_prompt": "Yashica camera in Iris's hands photographing the knot. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S11",
+      "scene_number": 11,
+      "title": "Second journal entry",
+      "start_time": 221.336,
+      "end_time": 251.432,
+      "shots": [
+        {
+          "shot_id": "S11_SH01",
+          "duration": 11.488,
+          "audio_duration": 11.088,
+          "start_time": 221.336,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S11_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S11_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S11_SH01.words.json",
+          "narration": "Iris decoded the next entry. Her aunt photographed the Visitor. The photograph was missing from the journal \u2014 but a small negative strip was hidden behind the journal's spine.",
+          "image_prompt": "Open notebook on Iris's lap, page turning, amber light from lens. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S11_SH02",
+          "duration": 11.92,
+          "audio_duration": 11.52,
+          "start_time": 232.824,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S11_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S11_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S11_SH02.words.json",
+          "narration": "The fourth frame showed a figure at the end of the dock in the early dawn light, bending over a crate. The face was in profile, half-shadowed. Iris did not recognize the face.",
+          "image_prompt": "Iris's fingers sliding negative strip out from behind spine. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S11_SH03",
+          "duration": 6.688000000000001,
+          "audio_duration": 6.288,
+          "start_time": 244.744,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S11_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S11_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S11_SH03.words.json",
+          "narration": "She did not need to recognize it. Her aunt had named it in the notebook. The face was a man named Renner.",
+          "image_prompt": "Negative strip held up to lens, fourth frame shows silhouette of tall broad man in yellow slicker at dock. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S12",
+      "scene_number": 12,
+      "title": "The contact sheet",
+      "start_time": 251.432,
+      "end_time": 268.80799999999994,
+      "shots": [
+        {
+          "shot_id": "S12_SH01",
+          "duration": 7.024,
+          "audio_duration": 6.624,
+          "start_time": 251.432,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S12_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S12_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S12_SH01.words.json",
+          "narration": "Iris developed the negative in her aunt's old enlarger. She made a contact sheet and a single print.",
+          "image_prompt": "Darkroom with red safelight, Iris sliding paper into developer, image of man at dock emerging. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S12_SH02",
+          "duration": 9.424,
+          "audio_duration": 9.024,
+          "start_time": 258.45599999999996,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S12_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S12_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S12_SH02.words.json",
+          "narration": "She put the print in the green notebook and put the green notebook back in the metal box and put the metal box back under the floor and put the board back.",
+          "image_prompt": "8x10 contact print in developer tray, image emerging. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S12_SH03",
+          "duration": 0.928,
+          "audio_duration": 0.528,
+          "start_time": 267.87999999999994,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S12_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S12_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S12_SH03.words.json",
+          "narration": "",
+          "image_prompt": "Iris's hands sliding dry print into green notebook, notebook into metal box. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S13",
+      "scene_number": 13,
+      "title": "The inspector arrives",
+      "start_time": 268.80799999999994,
+      "end_time": 293.912,
+      "shots": [
+        {
+          "shot_id": "S13_SH01",
+          "duration": 14.776,
+          "audio_duration": 14.376,
+          "start_time": 268.80799999999994,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S13_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S13_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S13_SH01.words.json",
+          "narration": "Inspector Delacroix came on the next Thursday. She was warm, professional. She had a tidy way of standing that Iris recognized from her aunt: the way a person stands who has spent twenty years on government boats in heavy weather.",
+          "image_prompt": "Two boats at dock \u2014 Petrel and Coast Guard tender. Wren stepping onto dock. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S13_SH02",
+          "duration": 4.288,
+          "audio_duration": 3.888,
+          "start_time": 283.58399999999995,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S13_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S13_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S13_SH02.words.json",
+          "narration": "'I was the one who found her,' Wren said. Iris let that sit.",
+          "image_prompt": "Wren's face, tidy professional smile. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S13_SH03",
+          "duration": 6.04,
+          "audio_duration": 5.64,
+          "start_time": 287.87199999999996,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S13_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S13_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S13_SH03.words.json",
+          "narration": "Wren waited, professionally, for the silence to break. Iris did not break it.",
+          "image_prompt": "Lamp room, Wren running hand along lens, Iris at doorway watching. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S14",
+      "scene_number": 14,
+      "title": "Midpoint reveal: 'the lens is the only honest witness'",
+      "start_time": 293.912,
+      "end_time": 335.31199999999995,
+      "shots": [
+        {
+          "shot_id": "S14_SH01",
+          "duration": 15.544,
+          "audio_duration": 15.144,
+          "start_time": 293.912,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S14_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S14_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S14_SH01.words.json",
+          "narration": "At the bottom of the tower, Wren said, conversationally, 'Your aunt always said the lens was the only honest witness on this island.' Iris did not move. The line was from the green notebook. Iris had not told anyone she had the notebook.",
+          "image_prompt": "Wren speaking to Iris at base of tower, Iris's posture rigid. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S14_SH02",
+          "duration": 19.791999999999998,
+          "audio_duration": 19.392,
+          "start_time": 309.45599999999996,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S14_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S14_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S14_SH02.words.json",
+          "narration": "She smiled. She said, 'She used to say a lot of things.' Wren smiled back. Wren left on the tender. Iris sat in the lamp room with the lens turning above her and the contact sheet in her hand and understood, in a single slow breath, that her aunt had not fallen on the path.",
+          "image_prompt": "Iris's face, eyes do not blink, expression absolutely still \u2014 recognition without reaction. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S14_SH03",
+          "duration": 6.064,
+          "audio_duration": 5.664,
+          "start_time": 329.24799999999993,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S14_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S14_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S14_SH03.words.json",
+          "narration": "Her aunt had been killed by a man who came to the island on Thursdays, and the inspector knew.",
+          "image_prompt": "Wren walking away down path, Iris at base of tower, not moving. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S15",
+      "scene_number": 15,
+      "title": "Mist closing",
+      "start_time": 335.31199999999995,
+      "end_time": 361.1039999999999,
+      "shots": [
+        {
+          "shot_id": "S15_SH01",
+          "duration": 25.791999999999998,
+          "audio_duration": 25.392,
+          "start_time": 335.31199999999995,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S15_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S15_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S15_SH01.words.json",
+          "narration": "Iris sat with her hands on the contact sheet and waited for her breath to come back, and after a while it came back. Then she went downstairs and packed the contact sheet, the print, and the negatives into the metal box and the metal box into her bag and her bag into the bottom of the well at the cottage, where the water was cold and the box would not be found. She did not yet know what she would do with what she had. She only knew that she had it.",
+          "image_prompt": "Iris sitting on iron stair under lens, contact sheet in hand, mist closing outside. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow pull-out"
+        }
+      ]
+    },
+    {
+      "scene_id": "S16",
+      "scene_number": 16,
+      "title": "The third journal entry \u2014 Renner named",
+      "start_time": 361.1039999999999,
+      "end_time": 395.9279999999999,
+      "shots": [
+        {
+          "shot_id": "S16_SH01",
+          "duration": 15.52,
+          "audio_duration": 15.12,
+          "start_time": 361.1039999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S16_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S16_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S16_SH01.words.json",
+          "narration": "Iris went back to the green notebook. The next entry named Renner: Otis Renner, 53, retired fisherman out of Neah Bay, who had used the boathouse as a drop point for forty years and paid the inspector since 1995.",
+          "image_prompt": "Open notebook page in code, pencil in margin decoding. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S16_SH02",
+          "duration": 18.375999999999998,
+          "audio_duration": 17.976,
+          "start_time": 376.6239999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S16_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S16_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S16_SH02.words.json",
+          "narration": "Her aunt had written: 'If I die on this island, it was Renner.' Iris read the dates and the amounts. She read the names. She read the names of the three keepers before her who had died on this island, and she read that none of them had died the way the service said they had died.",
+          "image_prompt": "Iris under rotating lens, stopped reading, eyes fixed. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S16_SH03",
+          "duration": 0.928,
+          "audio_duration": 0.528,
+          "start_time": 394.9999999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S16_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S16_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S16_SH03.words.json",
+          "narration": "",
+          "image_prompt": "Iris's hand closing notebook decisively. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S17",
+      "scene_number": 17,
+      "title": "The boathouse",
+      "start_time": 395.9279999999999,
+      "end_time": 427.6959999999999,
+      "shots": [
+        {
+          "shot_id": "S17_SH01",
+          "duration": 9.088000000000001,
+          "audio_duration": 8.688,
+          "start_time": 395.9279999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S17_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH01.words.json",
+          "narration": "The service padlock was locked, but the boathouse door was wood and the frame was rotten where the salt had worked into it for forty years.",
+          "image_prompt": "Iris's hands prying rotten frame with back of axe. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S17_SH02",
+          "duration": 12.88,
+          "audio_duration": 12.48,
+          "start_time": 405.0159999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S17_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH02.words.json",
+          "narration": "Iris pried the frame with the back of an axe. Inside, under the tarp, was a wooden crate with brass corners \u2014 cartons of cigarettes, three small canvas sacks, a length of fishing line.",
+          "image_prompt": "Boathouse interior with skiff, crate under tarp, Iris lifting tarp. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S17_SH03",
+          "duration": 8.872,
+          "audio_duration": 8.472,
+          "start_time": 417.8959999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S17_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH03.words.json",
+          "narration": "She took one carton and one sack. She photographed everything. She shut the boathouse and pried the frame back into place.",
+          "image_prompt": "Open crate: cigarettes, canvas sacks, fishing line. Iris's hand taking carton. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S17_SH04",
+          "duration": 0.928,
+          "audio_duration": 0.528,
+          "start_time": 426.7679999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S17_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S17_SH04.words.json",
+          "narration": "",
+          "image_prompt": "Yashica camera in Iris's hands photographing the crate. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S18",
+      "scene_number": 18,
+      "title": "Halen returns (Thursday 3) \u2014 confession",
+      "start_time": 427.6959999999999,
+      "end_time": 464.5279999999999,
+      "shots": [
+        {
+          "shot_id": "S18_SH01",
+          "duration": 9.736,
+          "audio_duration": 9.336,
+          "start_time": 427.6959999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S18_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH01.words.json",
+          "narration": "Halen came up on the Petrel alone. She came into the cottage without speaking. She shut the door. She stood with her back to it. 'I knew,' Halen said.",
+          "image_prompt": "Table with contact print, negatives, green notebook, cigarettes, canvas sack, navy coat. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S18_SH02",
+          "duration": 10.864,
+          "audio_duration": 10.464,
+          "start_time": 437.4319999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S18_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH02.words.json",
+          "narration": "'I knew your aunt suspected. I told her not to chase it. She didn't listen to me. You listen to me. Pack your bag. We are leaving on this tide.' Iris did not pack her bag.",
+          "image_prompt": "Iris and Halen at table, both faces stark. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S18_SH03",
+          "duration": 10.576,
+          "audio_duration": 10.176,
+          "start_time": 448.2959999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S18_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH03.words.json",
+          "narration": "She set the contact sheet on the table, the negative strip, the green notebook, the carton, the canvas sack. Halen said, 'I will come for you Thursday morning.",
+          "image_prompt": "Halen's face, about to cry. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S18_SH04",
+          "duration": 5.656000000000001,
+          "audio_duration": 5.256,
+          "start_time": 458.8719999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S18_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S18_SH04.words.json",
+          "narration": "We leave together. Whatever you have, we take it to the Coast Guard in Port Angeles.'",
+          "image_prompt": "Iris's face, steady, not looking away. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S19",
+      "scene_number": 19,
+      "title": "The storm warning \u2014 the bookmarked page",
+      "start_time": 464.5279999999999,
+      "end_time": 498.74399999999986,
+      "shots": [
+        {
+          "shot_id": "S19_SH01",
+          "duration": 11.128,
+          "audio_duration": 10.728,
+          "start_time": 464.5279999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S19_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH01.words.json",
+          "narration": "The shortwave carried a small-craft advisory: gale warning, eight-to-ten-foot swell, the Petrel would not be able to dock. Iris climbed to the lamp room.",
+          "image_prompt": "Shortwave radio on shelf, Iris's hand holds mic, wind audible. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S19_SH02",
+          "duration": 7.984,
+          "audio_duration": 7.584,
+          "start_time": 475.6559999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S19_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH02.words.json",
+          "narration": "She took the old crank handle from the closet. She read the page in the keeper's manual her aunt had bookmarked with a gull's feather.",
+          "image_prompt": "Open keeper's manual, page on fog signal decommissioned 1994, clockwork cam intact. Gull's feather bookmark. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow push-in"
+        },
+        {
+          "shot_id": "S19_SH03",
+          "duration": 14.176,
+          "audio_duration": 13.776,
+          "start_time": 483.6399999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S19_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH03.words.json",
+          "narration": "She read it twice. She sat under the lens with the wind in the glass and the lamp turning above her and her aunt's coat around her shoulders and she understood, in a slow breath, what her aunt had bookmarked for her.",
+          "image_prompt": "Iris's hands lifting brass crank handle from wooden closet in lamp room. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S19_SH04",
+          "duration": 0.928,
+          "audio_duration": 0.528,
+          "start_time": 497.81599999999986,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S19_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S19_SH04.words.json",
+          "narration": "",
+          "image_prompt": "Iris on iron stair with crank handle across lap, manual open beside her, lens rotating above. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S20",
+      "scene_number": 20,
+      "title": "The visitor",
+      "start_time": 498.74399999999986,
+      "end_time": 532.7439999999998,
+      "shots": [
+        {
+          "shot_id": "S20_SH01",
+          "duration": 10.912,
+          "audio_duration": 10.512,
+          "start_time": 498.74399999999986,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S20_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH01.words.json",
+          "narration": "At half past two a boat engine sounded through the rain. It was not the Petrel. The Petrel had a diesel; this was a gasoline engine, older, with a knock.",
+          "image_prompt": "Dock in storm, old aluminum skiff approaching, tall broad figure in yellow slicker at tiller. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S20_SH02",
+          "duration": 11.416,
+          "audio_duration": 11.016,
+          "start_time": 509.65599999999984,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S20_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH02.words.json",
+          "narration": "Iris went down to the cottage, took the metal box from the well, put the print, the negatives, the contact sheet, the notebook into a waterproof bag and put the bag inside her aunt's coat.",
+          "image_prompt": "Tall man in yellow slicker walking up path from dock, flashlight and pipe, lamp rotation sweeping across his back. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S20_SH03",
+          "duration": 5.968,
+          "audio_duration": 5.568,
+          "start_time": 521.0719999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S20_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH03.words.json",
+          "narration": "She went up to the lamp room. She took the old crank handle from the closet. A man came up the dock.",
+          "image_prompt": "Tower door from inside, man's silhouette through window, pipe knocks on door. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S20_SH04",
+          "duration": 5.704000000000001,
+          "audio_duration": 5.304,
+          "start_time": 527.0399999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S20_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S20_SH04.words.json",
+          "narration": "He knocked on the tower door with the pipe. 'I know you're up there,' he said. 'I knew your aunt too.'",
+          "image_prompt": "Iris at top of iron stair, crouched, crank handle in hand, looking down at closed door. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S21",
+      "scene_number": 21,
+      "title": "The fog signal",
+      "start_time": 532.7439999999998,
+      "end_time": 583.6799999999998,
+      "shots": [
+        {
+          "shot_id": "S21_SH01",
+          "duration": 11.728,
+          "audio_duration": 11.328,
+          "start_time": 532.7439999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S21_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH01.words.json",
+          "narration": "Iris climbed to the catwalk. She set the crank handle into the lens cam socket and turned. The lens, which had been turning on the photocell, stopped. She turned the crank again.",
+          "image_prompt": "Iris's hands sliding brass crank handle into socket on Fresnel lens housing, lens stops rotating. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S21_SH02",
+          "duration": 9.472,
+          "audio_duration": 9.072,
+          "start_time": 544.4719999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S21_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH02.words.json",
+          "narration": "The lens began to turn by hand. She turned it until the lens pointed at the fog-signal cam. She set the crank handle into the cam socket.",
+          "image_prompt": "Iris on catwalk at night in storm, turning brass crank, fog-signal whistle on rail, lamp rotation sweeping. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S21_SH03",
+          "duration": 20.176,
+          "audio_duration": 19.776,
+          "start_time": 553.9439999999997,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S21_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH03.words.json",
+          "narration": "She turned. The cam engaged the fog-signal whistle. The whistle had not sounded in thirty years. It sounded now \u2014 long, low, iron \u2014 long-short-long-short-long. The old Coast Guard SOS for lighthouse keepers before radio, the one her aunt had taught her at twelve, on the same rainy afternoon as the code.",
+          "image_prompt": "Iron fog-signal whistle, jet of compressed air sounding, rain on metal, amber lamp light passing. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S21_SH04",
+          "duration": 5.32,
+          "audio_duration": 4.92,
+          "start_time": 574.1199999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S21_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH04.words.json",
+          "narration": "Out on the water, beyond the storm, a small diesel engine changed note.",
+          "image_prompt": "Lighthouse in storm, lamp rotation, fog-signal steam cloud pulsing in long-short-long-short-long pattern, navigation lights of small boat turning far out. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S21_SH05",
+          "duration": 4.24,
+          "audio_duration": 3.84,
+          "start_time": 579.4399999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S21_SH05.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH05.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S21_SH05.words.json",
+          "narration": "The Petrel came through the channel at the top of the engine's range.",
+          "image_prompt": "Tall man in yellow slicker running down path from tower to dock, leaving. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    },
+    {
+      "scene_id": "S22",
+      "scene_number": 22,
+      "title": "After",
+      "start_time": 583.6799999999998,
+      "end_time": 639.4399999999998,
+      "shots": [
+        {
+          "shot_id": "S22_SH01",
+          "duration": 13.168000000000001,
+          "audio_duration": 12.768,
+          "start_time": 583.6799999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S22_SH01.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH01.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH01.words.json",
+          "narration": "Dawn. The Coast Guard came. They took Renner. Iris gave the waterproof bag to the officer. Wren Delacroix was arrested on the mainland at eight that morning; Iris heard it on the shortwave.",
+          "image_prompt": "Dock at dawn after storm, Coast Guard cutter, Petrel alongside, Iris with waterproof bag, Halen at bow, Renner on cleat, two Coast Guard officers. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S22_SH02",
+          "duration": 12.904,
+          "audio_duration": 12.504,
+          "start_time": 596.8479999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S22_SH02.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH02.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH02.words.json",
+          "narration": "Renner sat on a dock cleat with the pipe in his hand. Iris said: 'You killed my aunt.' He said: 'I did.' She said: 'Why?' He said: 'The route fed my family for forty years.",
+          "image_prompt": "Iris's face, steady, has wept earlier but not now, scar on eyebrow visible. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S22_SH03",
+          "duration": 8.056,
+          "audio_duration": 7.656,
+          "start_time": 609.7519999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S22_SH03.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH03.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH03.words.json",
+          "narration": "Your aunt should have stayed in the kitchen.' Iris did not hit him. She did not speak to him again. She sat on a dock cleat and waited.",
+          "image_prompt": "Iris and Halen at bow of Petrel, both facing each other. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        },
+        {
+          "shot_id": "S22_SH04",
+          "duration": 11.944,
+          "audio_duration": 11.544,
+          "start_time": 617.8079999999999,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S22_SH04.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH04.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH04.words.json",
+          "narration": "Six months later a postcard arrived at Bose's mainland home. Iris had enrolled in a maritime-archaeology program. The postcard was a photograph of Cape Vespers from the water.",
+          "image_prompt": "From bow of Petrel moving away from island, lighthouse and cottage receding into morning light, Iris in bow with bag and camera, Halen at wheelhouse. Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "slow pull-out"
+        },
+        {
+          "shot_id": "S22_SH05",
+          "duration": 9.688,
+          "audio_duration": 9.288,
+          "start_time": 629.7519999999998,
+          "image_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/images/S22_SH05.png",
+          "audio_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH05.mp3",
+          "words_path": "/home/z/my-project/engine_work/survival-cinema-agent/regen_v3/assets/narration_per_shot/S22_SH05.words.json",
+          "narration": "On the back, in the code Marisol had taught her, Iris had written: 'For Marisol.' The lens on Cape Vespers kept turning. It does not lie.",
+          "image_prompt": "Six months later. Postcard tacked to wood-paneled wall above shortwave. Postcard is photograph of Cape Vespers from water, taken from research vessel in afternoon light. Handwritten on back in code: \"For Marisol. \u2014 Iris.\" Cinematic 16:9, painterly, slight film grain, cold blue-grey Pacific Northwest palette with warm amber lamp accents. Slight vignette. No text, no watermarks. Andrew Wyeth tempera feel crossed with cold-climate drama film. Photoreal but not plastic; skin has texture; wood has grain.",
+          "motion": "static"
+        }
+      ]
+    }
+  ],
+  "voice": "en-US-AndrewMultilingualNeural",
+  "rate": "-3%",
+  "total_duration_seconds": 639.4399999999998
+}
